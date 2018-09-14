@@ -5,7 +5,7 @@
 Amy Danoff (adanoff@college.harvard.edu)  
 Andrew Shackelford (ashackelford@college.harvard.edu)  
 Emma Forman Ling (emma\_ling@college.harvard.edu)  
-Hailey Sorenson (hailey.j.sorenson@gmail.com)  
+Hailey James (hjames747@gmail.com)  
 Michelle Vaccaro (michelle\_vaccaro@college.harvard.edu)  
 Priya Kukreja (pkukreja@college.harvard.edu)  
 Saffron Huang (sshuang@college.harvard.edu)  
