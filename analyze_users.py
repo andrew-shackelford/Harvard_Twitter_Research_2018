@@ -1,21 +1,21 @@
 import argparse
+import user_analyzer
 import os
-import parser
 import writer
 
 def main():
-    argparser = argparse.ArgumentParser(description='Parse json files of tweets and export them to a pickle file.')
-    argparser.add_argument("infile", help="The file or folders you wish to parse")
+    argparser = argparse.ArgumentParser(description='Analyze pickle files of tweets and determine how often and when a user tweets.')
+    argparser.add_argument("infile", help="The file or folders you wish to analyze")
     argparser.add_argument("outfile", help="The destination pickle file")
     args = vars(argparser.parse_args())
     infile, outfile = args['infile'], args['outfile']
 
-    json_parser = parser.Parser()
+    analyzer = user_analyzer.User_Analyzer()
 
     if os.path.isdir(infile):
-        data = json_parser.parse_json_folder(infile)
+        data = analyzer.analyze_user_folder(infile)
     elif os.path.isfile(infile):
-        data = json_parser.parse_json_file(infile)
+        data = analyzer.analyze_user_file(infile)
     else:
         print(infile + " is not a valid file.")
         return
