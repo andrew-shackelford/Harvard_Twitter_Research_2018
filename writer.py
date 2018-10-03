@@ -18,7 +18,7 @@ class Writer:
             try:
                 sys.stdout.write("writing " + outfile + "...")
                 sys.stdout.flush()
-                pickle.dump(outfile, f)
+                pickle.dump(data, f)
                 print("done")
             except:
                 print("FAILED")
