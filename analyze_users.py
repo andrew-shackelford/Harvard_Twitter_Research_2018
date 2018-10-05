@@ -4,7 +4,7 @@ import os
 import writer
 
 def main():
-    argparser = argparse.ArgumentParser(description='Analyze pickle files of tweets and determine how often and when a user tweets.')
+    argparser = argparse.ArgumentParser(description='Analyze pickle or json files of tweets and determine how often and when a user tweets.')
     argparser.add_argument("infile", help="The file or folders you wish to analyze")
     argparser.add_argument("outfile", help="The destination pickle file")
     args = vars(argparser.parse_args())
@@ -20,6 +20,9 @@ def main():
         print(infile + " is not a valid file.")
         return
 
+    if data == []:
+        return
+        
     pickle_writer = writer.Writer()
     pickle_writer.write_to_pickle(data, outfile)
 
