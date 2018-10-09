@@ -1,7 +1,7 @@
 '''
 Use existing architecture from twitter_hashtag_filter to get users by searching
-their name on twitter and filtering by verified users. Store these user objects
-in a json file. Currently used to get user profiles of all midterm election
+their name on twitter and filter by verified users. Store these user objects
+in a json file. Implemented to get user profiles of all midterm election
 candidates.
 '''
 import tweepy
