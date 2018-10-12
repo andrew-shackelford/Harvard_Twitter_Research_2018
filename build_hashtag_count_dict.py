@@ -2,6 +2,8 @@ import pickle, json, sys
 
 def build_tweet_dict(from_file):
     '''
+    NOTE: this code is no longer used in any of the other code in the file...
+
     Build a dictionary of tweet hashtags. The key to the dictionary is the individual hashtag, with the value being
     the number of instances of that hashtag. The file is assumed to be a json formatted file from the twitter stream
     :param from_file: a json-formatted file of tweets
@@ -12,7 +14,9 @@ def build_tweet_dict(from_file):
         lj = json.loads(l)
         if ('entities' in lj) and ('hashtags' in lj['entities']):
             for h in lj['entities']['hashtags']:
-                h_dict[h['text']] = h_dict.get(h['text'], 0) + 1
+                ht = h['text'].lower()
+                print(ht)
+                h_dict[ht] = h_dict.get(ht, 0) + 1
     return h_dict
 
 def build_id_post_count(from_file):
@@ -58,7 +62,7 @@ def build_tweet_id_dicts(from_file):
         lj = json.loads(l)
         if ('entities' in lj) and ('hashtags' in lj['entities']):
             for h in lj['entities']['hashtags']:
-                i = h['text']
+                i = h['text'].lower()
                 h_dict[i] = h_dict.get(i, 0) + 1
         if 'user' in lj:
             i = lj['user']['id']
