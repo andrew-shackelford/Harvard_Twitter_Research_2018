@@ -2,3 +2,4 @@
 *.json
 *.txt
 *.pkl
+*.DS_Store
