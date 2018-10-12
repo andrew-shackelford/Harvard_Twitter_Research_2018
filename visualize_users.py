@@ -11,15 +11,16 @@ def main():
     args = vars(argparser.parse_args())
     infile = args['infile']
 
-    visualizer = user_visualizer.User_Visualizer()
-
     if os.path.isfile(infile):
+        print("loading " + infile + "...")
+        visualizer = user_visualizer.User_Visualizer(infile)
+        print("done")
+        
         if len(args['user_id']) > 0:
-            data = visualizer.visualize_user_frequency(infile, args['user_id'])
+            data = visualizer.visualize_user_frequency(args['user_id'])
         else:
-            user_ids = visualizer.get_most_active_users(infile, args['number'])
-            visualizer.visualize_user_frequency(infile, user_ids)
-
+            user_ids = visualizer.get_most_active_users(args['number'])
+            visualizer.visualize_user_frequency(user_ids)
     else:
         print(infile + " is not a valid file.")
         return
