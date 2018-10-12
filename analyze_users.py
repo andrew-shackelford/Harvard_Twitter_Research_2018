@@ -5,7 +5,7 @@ import writer
 
 def main():
     argparser = argparse.ArgumentParser(description='Analyze pickle or json files of tweets and determine how often and when a user tweets.')
-    argparser.add_argument("infile", help="The file or folders you wish to analyze")
+    argparser.add_argument("infile", help="The file or folder you wish to analyze")
     argparser.add_argument("outfile", help="The destination pickle file")
     args = vars(argparser.parse_args())
     infile, outfile = args['infile'], args['outfile']
