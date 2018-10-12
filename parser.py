@@ -42,5 +42,5 @@ class Parser:
         all_data = {}
         for file in os.listdir(infolder):
             if (file[-5:] == ".json"):
-                all_data[file] = self.parse_json_file(file)
+                all_data[file] = self.parse_json_file(infolder + file)
         return all_data

@@ -93,6 +93,8 @@ class User_Analyzer:
         '''
         all_data = {}
         for file in os.listdir(infolder):
-            if (file[-4:] == ".pkl"):
-                all_data = self.analyze_user_file(file, all_data)
+            if file[-4:] == ".pkl":
+                all_data = self.__analyze_user_pkl(infolder + file, all_data)
+            elif file[-5:] == ".json":
+                all_data = self.__analyze_user_json(infolder + file, all_data)
         return all_data
