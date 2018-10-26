@@ -5,3 +5,4 @@
 *.DS_Store
 make_new_hashtag_config.py
 credentials.json
+*.json.Z
