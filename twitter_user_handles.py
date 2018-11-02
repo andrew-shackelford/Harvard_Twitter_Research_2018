@@ -45,7 +45,6 @@ if __name__ == '__main__':
 
 # Search each name, and write the first found verified user to the output json file
 
-    # with open(out_dir + "/" + out_file + '.json', 'a') as outFile: # entire user object
     with open(out_dir + '/candidate_handles.txt', 'a') as outFile: # handle only
         for name in data.split(','):
             if name != '':
@@ -54,4 +53,3 @@ if __name__ == '__main__':
                 if len(users) > 0:
                     user = users[0]
                     outFile.write('@' + user.screen_name + '\n') # handle only
-                    # json.dump(user._json, outFile) # entire user object
