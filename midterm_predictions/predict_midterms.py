@@ -194,6 +194,24 @@ def initialize_dict():
             partisan_tweets_per_candidate[line[1:-1].lower()] = {'liberal': {'total': 0, 'unique': 0}, 'conservative': {'total': 0, 'unique': 0}, 'neutral': {'total': 0, 'unique': 0}}
     return partisan_tweets_per_candidate
 
+def classify_tweet(tweet, lib_hashtags, cons_hashtags):
+    lib_score = 0
+    cons_score = 0
+    tweet_sentiment = 'neutral'
+    for hashtag in tweet['entities']['hashtags']:
+        ht = hashtag['text'].lower()
+        if ht in lib_hashtags or 'blue' in ht:
+            lib_score +=1
+        elif ht in cons_hashtags or 'red' in ht:
+            cons_score += 1
+    if lib_score > cons_score:
+        tweet_sentiment = 'liberal'
+    elif lib_score < cons_score:
+        tweet_sentiment = 'conservative'
+    return tweet_sentiment
+
+
+
 with open('posters.pkl', 'wb') as posters_file:
     pickle.dump(set(), posters_file)
 days = [
@@ -215,14 +233,11 @@ days = [
 ]
 days.reverse()
 
-# script to create dictionaries for one day - a command-line arg in form yyyy-mm-dd
-# root_dir = os.listdir('data')
 for day in days:
-    partisan_tweets_per_candidate = intialize_dict()
-    # with open('tweet_ids.pkl', 'wb') as tweet_ids_file:
-    #     pickle.dump(set(), tweet_ids_file)
+    partisan_tweets_per_candidate = initialize_dict()
+    # Keep track of tweets seen before
     tweet_ids = set()
-    with open('posters.pkl', 'rb') as posters_file, open('tweet_ids.pkl', 'rb') as tweet_ids_file:
+    with open('posters.pkl', 'rb') as posters_file:
         posters = pickle.load(posters_file)
     files_for_day = []
     for file_name in os.listdir('.'):
@@ -243,31 +258,21 @@ for day in days:
                         if tweet_id not in tweet_ids:
                             tweet_ids.add(tweet_id)
                             # Classify tweet as liberal or conservative
-                            lib_score = 0
-                            cons_score = 0
-                            tweet_sentiment = 'neutral'
-                            for hashtag in tweet['entities']['hashtags']:
-                                ht = hashtag['text'].lower()
-                                if ht in lib_hashtags or 'blue' in ht:
-                                    lib_score +=1
-                                elif ht in cons_hashtags or 'red' in ht:
-                                    cons_score += 1
-                            if lib_score > cons_score:
-                                tweet_sentiment = 'liberal'
-                            elif lib_score < cons_score:
-                                tweet_sentiment = 'conservative'
+                            tweet_sentiment = classify_tweet(tweet, lib_hashtags, cons_hashtags)
 
                             # Get the candidates mentioned in tweets
                             mentions = [mention_object['screen_name'].lower() for mention_object in tweet['entities']['user_mentions']]
+                            poster_seen_before = poster in posters
                             # Update dictionary
                             for person in mentions:
                                 try:
                                     partisan_tweets_per_candidate[person][tweet_sentiment]['total'] += 1
-                                    if poster not in posters:
+                                    if not poster_seen_before:
                                         partisan_tweets_per_candidate[person][tweet_sentiment]['unique'] += 1
-                                        posters.add(poster)
+
                                 except:
                                     pass;
+                            posters.add(poster)
                     except:
                         pass;
 
