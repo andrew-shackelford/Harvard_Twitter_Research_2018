@@ -194,6 +194,13 @@ def initialize_dict():
             partisan_tweets_per_candidate[line[1:-1].lower()] = {'liberal': {'total': 0, 'unique': 0}, 'conservative': {'total': 0, 'unique': 0}, 'neutral': {'total': 0, 'unique': 0}}
     return partisan_tweets_per_candidate
 
+def initialize_posters_dict():
+    posters = dict()
+    with open('candidate_handles.txt') as f:
+        for line in f:
+            posters[line[1:-1].lower()] = set()
+    return posters
+
 def classify_tweet(tweet, lib_hashtags, cons_hashtags):
     lib_score = 0
     cons_score = 0
@@ -213,7 +220,7 @@ def classify_tweet(tweet, lib_hashtags, cons_hashtags):
 
 
 with open('posters.pkl', 'wb') as posters_file:
-    pickle.dump(set(), posters_file)
+    pickle.dump(initialize_posters_dict(), posters_file)
 days = [
     '2018-10-22',
     '2018-10-23',
@@ -262,17 +269,15 @@ for day in days:
 
                             # Get the candidates mentioned in tweets
                             mentions = [mention_object['screen_name'].lower() for mention_object in tweet['entities']['user_mentions']]
-                            poster_seen_before = poster in posters
                             # Update dictionary
                             for person in mentions:
                                 try:
                                     partisan_tweets_per_candidate[person][tweet_sentiment]['total'] += 1
-                                    if not poster_seen_before:
+                                    if poster not in posters[person]:
+                                        posters[person].add(poster)
                                         partisan_tweets_per_candidate[person][tweet_sentiment]['unique'] += 1
-
                                 except:
                                     pass;
-                            posters.add(poster)
                     except:
                         pass;
 
