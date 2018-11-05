@@ -186,8 +186,6 @@ cons_hashtags = set([ht.lower() for ht in [
 ]])
 
 dir = os.listdir('data')
-blue_pattern = re.compile(".*blue*")
-red_pattern = re.compile(".*red*")
 
 for file_name in dir:
     outfile_name = 'partisan_tweets_per_candidate_' + file_name[17:-5] + '.pkl'
@@ -219,14 +217,15 @@ for file_name in dir:
                         tweet_sentiment = 'neutral'
                         for hashtag in tweet['entities']['hashtags']:
                             ht = hashtag['text'].lower()
-                            if ht in lib_hashtags or blue_pattern.match(ht):
+                            if ht in lib_hashtags or 'blue' in ht:
                                 lib_score +=1
-                            elif ht in cons_hashtags or red_pattern.match(ht):
+                            elif ht in cons_hashtags or 'red' in ht:
                                 cons_score += 1
                         if lib_score > cons_score:
                             tweet_sentiment = 'liberal'
                         elif lib_score < cons_score:
                             tweet_sentiment = 'conservative'
+
 
                         # Get the candidates mentioned in tweets
                         mentions = re.findall('@[a-zA-Z0-9_]{1,15}', tweet['text'].lower())
