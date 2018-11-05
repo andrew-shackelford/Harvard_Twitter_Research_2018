@@ -204,33 +204,39 @@ for file_name in dir:
             handles.append(line[:-1].lower())
 
     with open('data/' + file_name) as infile, open(outfile_name, 'wb') as outfile:
+        # Keep track of posters
+        posters = []
         for line in infile:
             if line != None:
                 tweet = json.loads(line.rstrip('\n'))
                 try:
-                    # Classify tweet as liberal or conservative
-                    lib_score = 0
-                    cons_score = 0
-                    tweet_sentiment = 'neutral'
-                    for hashtag in tweet['entities']['hashtags']:
-                        ht = hashtag['text'].lower()
-                        if ht in lib_hashtags or blue_pattern.match(ht):
-                            lib_score +=1
-                        elif ht in cons_hashtags or red_pattern.match(ht):
-                            cons_score += 1
-                    if lib_score > cons_score:
-                        tweet_sentiment = 'liberal'
-                    elif lib_score < cons_score:
-                        tweet_sentiment = 'conservative'
+                    poster = tweet['user']['screen_name']
+                    if poster not in posters:
+                        posters.append(poster)
+                        # Classify tweet as liberal or conservative
+                        lib_score = 0
+                        cons_score = 0
+                        tweet_sentiment = 'neutral'
+                        for hashtag in tweet['entities']['hashtags']:
+                            ht = hashtag['text'].lower()
+                            if ht in lib_hashtags or blue_pattern.match(ht):
+                                lib_score +=1
+                            elif ht in cons_hashtags or red_pattern.match(ht):
+                                cons_score += 1
+                        if lib_score > cons_score:
+                            tweet_sentiment = 'liberal'
+                        elif lib_score < cons_score:
+                            tweet_sentiment = 'conservative'
 
-                    # Get the candidates mentioned in tweets
-                    mentions = re.findall('@[a-zA-Z0-9_]{1,15}', tweet['text'].lower())
-                    # Update dictionary
-                    for person in mentions:
-                        try:
-                            partisan_tweets_per_candidate[person][tweet_sentiment] += 1
-                        except:
-                            pass;
+                        # Get the candidates mentioned in tweets
+                        mentions = re.findall('@[a-zA-Z0-9_]{1,15}', tweet['text'].lower())
+                        # Update dictionary
+                        for person in mentions:
+                            try:
+                                partisan_tweets_per_candidate[person][tweet_sentiment] += 1
+                            except:
+                                pass;
                 except:
                     pass;
         pickle.dump(partisan_tweets_per_candidate, outfile)
+        print(partisan_tweets_per_candidate)
