@@ -191,48 +191,50 @@ for file_name in dir:
     outfile_name = 'partisan_tweets_per_candidate_' + file_name[17:-5] + '.pkl'
     sys.stdout.write("parsing " + file_name + "...")
     sys.stdout.flush()
-
     # Create dictionary with candidate handles as keys and dictionary of counts of
     # liberal and conservative tweets in tweets that mention the candidate as values
-    with open('candidate_handles.txt') as f:
+    with open('candidate_handles' + file_name[17:19] + '.txt') as f:
         partisan_tweets_per_candidate = {}
         handles = []
         for line in f:
-            partisan_tweets_per_candidate[line[:-1].lower()] = {'liberal': 0, 'conservative': 0, 'neutral': 0}
+            partisan_tweets_per_candidate[line[:-1].lower()] = {'liberal': {'total': 0, 'unique': 0}, 'conservative': {'total': 0, 'unique': 0}, 'neutral': {'total': 0, 'unique': 0}}
             handles.append(line[:-1].lower())
 
     with open('data/' + file_name) as infile, open(outfile_name, 'wb') as outfile:
         # Keep track of posters
-        posters = []
+        posters = set()
         for line in infile:
             if line != None:
                 tweet = json.loads(line.rstrip('\n'))
                 try:
                     poster = tweet['user']['screen_name']
-                    if poster not in posters:
-                        posters.append(poster)
-                        # Classify tweet as liberal or conservative
-                        lib_score = 0
-                        cons_score = 0
-                        tweet_sentiment = 'neutral'
-                        for hashtag in tweet['entities']['hashtags']:
-                            ht = hashtag['text'].lower()
-                            if ht in lib_hashtags or 'blue' in ht:
-                                lib_score +=1
-                            elif ht in cons_hashtags or 'red' in ht:
-                                cons_score += 1
-                        if lib_score > cons_score:
-                            tweet_sentiment = 'liberal'
-                        elif lib_score < cons_score:
-                            tweet_sentiment = 'conservative'
 
+                    # Classify tweet as liberal or conservative
+                    lib_score = 0
+                    cons_score = 0
+                    tweet_sentiment = 'neutral'
+                    for hashtag in tweet['entities']['hashtags']:
+                        ht = hashtag['text'].lower()
+                        if ht in lib_hashtags or 'blue' in ht:
+                            lib_score +=1
+                        elif ht in cons_hashtags or 'red' in ht:
+                            cons_score += 1
+                    if lib_score > cons_score:
+                        tweet_sentiment = 'liberal'
+                    elif lib_score < cons_score:
+                        tweet_sentiment = 'conservative'
 
-                        # Get the candidates mentioned in tweets
-                        mentions = re.findall('@[a-zA-Z0-9_]{1,15}', tweet['text'].lower())
-                        # Update dictionary
-                        for person in mentions:
+                    # Get the candidates mentioned in tweets
+                    # mentions = re.findall('@[a-zA-Z0-9_]{1,15}', tweet['text'].lower())
+                    mentions = [mention_object['screen_name'] for mention_object in tweet['entities']['user_mentions']]
+                    # Update dictionary
+                    for person in mentions:
+                        if person in handles:
                             try:
-                                partisan_tweets_per_candidate[person][tweet_sentiment] += 1
+                                partisan_tweets_per_candidate[person][tweet_sentiment]['total'] += 1
+                                if poster not in posters:
+                                    partisan_tweets_per_candidate[person][tweet_sentiment]['unique'] += 1
+                                    posters.append(poster)
                             except:
                                 pass;
                 except:
