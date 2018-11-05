@@ -3,6 +3,7 @@ This script will take json files of tweets in the directory and copy
 tweets that include pro/anti-Kavanaugh hashtags to a new file
 '''
 import json
+import os
 
 kavanaugh_hashtags = set([
     'confirmkavanaugh',
