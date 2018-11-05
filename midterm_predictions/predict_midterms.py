@@ -185,59 +185,93 @@ cons_hashtags = set([ht.lower() for ht in [
     'bluelivesmatter'
 ]])
 
-dir = os.listdir('data')
-
-for file_name in dir:
-    outfile_name = 'partisan_tweets_per_candidate_' + file_name[17:-5] + '.pkl'
-    sys.stdout.write("parsing " + file_name + "...")
-    sys.stdout.flush()
+def initialize_dict():
     # Create dictionary with candidate handles as keys and dictionary of counts of
     # liberal and conservative tweets in tweets that mention the candidate as values
-    with open('candidate_handles' + file_name[17:19] + '.txt') as f:
+    with open('candidate_handles.txt') as f:
         partisan_tweets_per_candidate = {}
-        handles = []
         for line in f:
-            partisan_tweets_per_candidate[line[:-1].lower()] = {'liberal': {'total': 0, 'unique': 0}, 'conservative': {'total': 0, 'unique': 0}, 'neutral': {'total': 0, 'unique': 0}}
-            handles.append(line[:-1].lower())
+            partisan_tweets_per_candidate[line[1:-1].lower()] = {'liberal': {'total': 0, 'unique': 0}, 'conservative': {'total': 0, 'unique': 0}, 'neutral': {'total': 0, 'unique': 0}}
+    return partisan_tweets_per_candidate
 
-    with open('data/' + file_name) as infile, open(outfile_name, 'wb') as outfile:
-        # Keep track of posters
-        posters = set()
-        for line in infile:
-            if line != None:
-                tweet = json.loads(line.rstrip('\n'))
-                try:
-                    poster = tweet['user']['screen_name']
+with open('posters.pkl', 'wb') as posters_file:
+    pickle.dump(set(), posters_file)
+days = [
+    '2018-10-22',
+    '2018-10-23',
+    '2018-10-24',
+    '2018-10-25',
+    '2018-10-26',
+    '2018-10-27',
+    '2018-10-28',
+    '2018-10-29',
+    '2018-10-30',
+    '2018-10-31',
+    '2018-11-01',
+    '2018-11-02',
+    '2018-11-03',
+    '2018-11-04',
+    '2018-11-05'
+]
+days.reverse()
 
-                    # Classify tweet as liberal or conservative
-                    lib_score = 0
-                    cons_score = 0
-                    tweet_sentiment = 'neutral'
-                    for hashtag in tweet['entities']['hashtags']:
-                        ht = hashtag['text'].lower()
-                        if ht in lib_hashtags or 'blue' in ht:
-                            lib_score +=1
-                        elif ht in cons_hashtags or 'red' in ht:
-                            cons_score += 1
-                    if lib_score > cons_score:
-                        tweet_sentiment = 'liberal'
-                    elif lib_score < cons_score:
-                        tweet_sentiment = 'conservative'
+# script to create dictionaries for one day - a command-line arg in form yyyy-mm-dd
+# root_dir = os.listdir('data')
+for day in days:
+    partisan_tweets_per_candidate = intialize_dict()
+    # with open('tweet_ids.pkl', 'wb') as tweet_ids_file:
+    #     pickle.dump(set(), tweet_ids_file)
+    tweet_ids = set()
+    with open('posters.pkl', 'rb') as posters_file, open('tweet_ids.pkl', 'rb') as tweet_ids_file:
+        posters = pickle.load(posters_file)
+    files_for_day = []
+    for file_name in os.listdir('.'):
+        if day in file_name and 'all' not in file_name:
+            files_for_day.append(file_name)
+    for file_name in files_for_day:
+        outfile_name = 'partisan_tweets_per_candidate_' + file_name[17:-5] + '.pkl'
+        sys.stdout.write("parsing " + file_name + "...")
+        sys.stdout.flush()
 
-                    # Get the candidates mentioned in tweets
-                    # mentions = re.findall('@[a-zA-Z0-9_]{1,15}', tweet['text'].lower())
-                    mentions = [mention_object['screen_name'] for mention_object in tweet['entities']['user_mentions']]
-                    # Update dictionary
-                    for person in mentions:
-                        if person in handles:
-                            try:
-                                partisan_tweets_per_candidate[person][tweet_sentiment]['total'] += 1
-                                if poster not in posters:
-                                    partisan_tweets_per_candidate[person][tweet_sentiment]['unique'] += 1
-                                    posters.append(poster)
-                            except:
-                                pass;
-                except:
-                    pass;
-        pickle.dump(partisan_tweets_per_candidate, outfile)
-        print(partisan_tweets_per_candidate)
+        with open(file_name) as infile, open(outfile_name, 'wb') as outfile:
+            for line in infile:
+                if line != None:
+                    tweet = json.loads(line.rstrip('\n'))
+                    try:
+                        poster = tweet['user']['screen_name']
+                        tweet_id = tweet['id_str']
+                        if tweet_id not in tweet_ids:
+                            tweet_ids.add(tweet_id)
+                            # Classify tweet as liberal or conservative
+                            lib_score = 0
+                            cons_score = 0
+                            tweet_sentiment = 'neutral'
+                            for hashtag in tweet['entities']['hashtags']:
+                                ht = hashtag['text'].lower()
+                                if ht in lib_hashtags or 'blue' in ht:
+                                    lib_score +=1
+                                elif ht in cons_hashtags or 'red' in ht:
+                                    cons_score += 1
+                            if lib_score > cons_score:
+                                tweet_sentiment = 'liberal'
+                            elif lib_score < cons_score:
+                                tweet_sentiment = 'conservative'
+
+                            # Get the candidates mentioned in tweets
+                            mentions = [mention_object['screen_name'].lower() for mention_object in tweet['entities']['user_mentions']]
+                            # Update dictionary
+                            for person in mentions:
+                                try:
+                                    partisan_tweets_per_candidate[person][tweet_sentiment]['total'] += 1
+                                    if poster not in posters:
+                                        partisan_tweets_per_candidate[person][tweet_sentiment]['unique'] += 1
+                                        posters.add(poster)
+                                except:
+                                    pass;
+                    except:
+                        pass;
+
+            pickle.dump(partisan_tweets_per_candidate, outfile)
+            print(partisan_tweets_per_candidate)
+    with open('posters.pkl', 'wb') as posters_file, open('tweet_ids.pkl', 'wb') as tweet_ids_file:
+        pickle.dump(posters, posters_file)
