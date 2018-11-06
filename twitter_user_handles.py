@@ -3,6 +3,13 @@ Use existing architecture from twitter_hashtag_filter to get users by searching
 their name on twitter and filter by verified users. Store these user objects
 in a json file. Implemented to get user profiles of all midterm election
 candidates.
+
+Usage example:
+
+Use Hailey's Twitter API keys to get all the handles from the the first 200
+candidates listed in names_part_1.txt (copied from the spreadsheet)
+
+python twitter_user_handles.py ConfigFiles/handles/hailey_part_1.txt
 '''
 import tweepy
 import twitter_hashtag_filter as thf
@@ -38,11 +45,11 @@ if __name__ == '__main__':
 
 # Search each name, and write the first found verified user to the output json file
 
-    with open(out_dir + "/" + out_file + '.json', 'a') as outFile:
+    with open(out_dir + '/candidate_handles.txt', 'a') as outFile: # handle only
         for name in data.split(','):
             if name != '':
                 query = name + '& filter:verified'
                 users = api.search_users(q=name)
                 if len(users) > 0:
                     user = users[0]
-                    json.dump(user._json, outFile)
+                    outFile.write('@' + user.screen_name + '\n') # handle only
