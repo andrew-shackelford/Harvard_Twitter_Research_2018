@@ -1,4 +1,4 @@
-import os, pickle, json, sys
+import os, pickle, json, sys, csv
 import subprocess
 import tweet_reduction_cl as tc
 
@@ -24,21 +24,18 @@ def file_compress(f_name):
     subprocess.run(['gzip', fname])
     return
 
-def write_daily_pickles(fname, tweet_dict, retweet_dict):
-    tweet_out = open(fname + 'tweets' + '.pkl', 'wb')
-    pickle.dump(tweet_dict, tweet_out)
-    tweet_out.close()
-
-    retweet_out = open(fname + 'retweets' + '.pkl', 'wb')
+def write_daily_pickles(fname, retweet_dict):
+    retweet_out = open(fname[:-4] + 'retweets' + '.pkl', 'wb')
     pickle.dump(retweet_dict, retweet_out)
     retweet_out.close()
     return
 
 
 def extract_reduction(fname, tweet_ids, tweeter_dict):
-    tweet_dict = {}
     retweet_dict = {}
     fin = open(fname, 'r')
+    fout = open(fname[:-4] + 'tweets' + '.csv', 'w')
+    csv_tweet_out = csv.writer(fout)
     total_tweets = 0
     for l in fin:
         try:
@@ -49,7 +46,7 @@ def extract_reduction(fname, tweet_ids, tweeter_dict):
         if 'id_str' in jl:
             total_tweets += 1
             if jl['id_str'] not in tweet_ids:
-                tweet_dict[jl['id_str']] = tc.tweet_tags(jl)
+                csv_tweet_out.writerow(tc.tweet_tags(jl).get_values_as_list())
                 tweet_ids.add(jl['id_str'])
             if jl['user']['id_str'] not in twit_ids:
                 tweeter_dict[jl['user']['id_str']] = tc.tweeter(jl)
@@ -64,7 +61,8 @@ def extract_reduction(fname, tweet_ids, tweeter_dict):
                 retweet_dict[source_handle].add(retweet_handle)
 
     fin.close()
-    write_daily_pickles(fname, tweet_dict, retweet_dict)
+    fout.close()
+    write_daily_pickles(fname, retweet_dict)
     return total_tweets
 
 
@@ -92,6 +90,12 @@ if __name__ == '__main__':
     tweet_out = open('all_tweet_set.pkl', 'wb')
     pickle.dump(tweet_ids, tweet_out)
     tweet_out.close()
+
+    twit_out = open('all_tweeters.csv', 'w')
+    twit_c = csv.writer(twit_out)
+    for v in twit_ids.values():
+        twit_c.writerow(v.get_values_as_list())
+    twit_out.close()
 
     print ('total number of tweets = ' + str(tweet_count))
     print ('length of the tweet set = ' + str(len(tweet_ids)))
