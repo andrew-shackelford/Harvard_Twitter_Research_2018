@@ -24,6 +24,7 @@ class User_Analyzer:
                             data[user_id]['count'] = 0
                             data[user_id]['tweet_dates'] = []
                             data[user_id]['tweet_times'] = {}
+                            data[user_id]['tweets'] = []
 
                         time = datetime.strptime(tweet['created_at'], '%a %b %d %H:%M:%S +0000 %Y')
                         hours = int(round((time - datetime(2018,1,1)).total_seconds() / 3600))
@@ -31,6 +32,10 @@ class User_Analyzer:
                         data[user_id]['count'] = data[user_id]['count'] + 1
                         data[user_id]['tweet_dates'].append(tweet['created_at'])
                         data[user_id]['tweet_times'][hours] = data[user_id]['tweet_times'].get(hours, 0) + 1
+                        if 'extended_tweet' in tweet:
+                            data[user_id]['tweets'].append(tweet['extended_tweet']['full_text'])
+                        else:
+                            data[user_id]['tweets'].append(tweet['text'])
                 except:
                     print("tweet failed")
 
@@ -55,6 +60,7 @@ class User_Analyzer:
                         data[user_id]['count'] = 0
                         data[user_id]['tweet_dates'] = []
                         data[user_id]['tweet_times'] = {}
+                        data[user_id]['tweets'] = []
 
                     time = datetime.strptime(tweet['created_at'], '%a %b %d %H:%M:%S +0000 %Y')
                     hours = int(round((time - datetime(2018,1,1)).total_seconds() / 3600))
@@ -62,6 +68,10 @@ class User_Analyzer:
                     data[user_id]['count'] = data[user_id]['count'] + 1
                     data[user_id]['tweet_dates'].append(tweet['created_at'])
                     data[user_id]['tweet_times'][hours] = data[user_id]['tweet_times'].get(hours, 0) + 1
+                    if 'extended_tweet' in tweet:
+                        data[user_id]['tweets'].append(tweet['extended_tweet']['full_text'])
+                    else:
+                        data[user_id]['tweets'].append(tweet['text'])
             except:
                 print("tweet failed")
         print("analyzing done")

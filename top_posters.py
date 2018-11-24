@@ -1,3 +1,9 @@
+'''
+A class that processes the id2count files in a DerivedFiles folder (in the same
+directory) and
+
+'''
+
 import pickle
 from collections import OrderedDict, defaultdict
 import glob
@@ -41,14 +47,14 @@ class TopPosters:
 
     def postcountover(self, count):
         # find user ids whose post counts are above a certain number
-        print("User IDs with a post count over %d", % count)
+        #print("User IDs with a post count over %d", % count)
         for key, value in self.ordered_counts.items():
           if value > count:
             print(key, value)
 
     def topoverall(self):
         # find top 50 poster ids over all days
-        self.top50overall = {k: self.ordered_counts[k] for k in list(self.ordered_counts)[:50]}
+        self.top50overall = {k: self.ordered_counts[k] for k in list(self.ordered_counts)[:1000]}
         print("Top 50 Overall:", self.top50overall)
 
     def visualizetop50(self):
