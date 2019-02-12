@@ -1,0 +1,1165 @@
+,district,name,state,chamber,party,incumbent
+0,District 1,Robert Kennedy Jr.,Alabama,house,Democratic Party,False
+1,District 1,Bradley Byrne,Alabama,house,Republican Party,True
+2,District 2,Tabitha Isner,Alabama,house,Democratic Party,False
+3,District 2,Martha Roby,Alabama,house,,True
+4,District 3,Mallory Hagan,Alabama,house,Democratic Party,False
+5,District 3,Mike Rogers,Alabama,house,Alabama Party,True
+6,District 4,Lee Auman,Alabama,house,Democratic Party,False
+7,District 4,Robert Aderholt,Alabama,house,,True
+8,District 5,Peter Joffrion,Alabama,house,Democratic Party,False
+9,District 5,Mo Brooks,Alabama,house,,True
+10,District 6,Danner Kline,Alabama,house,Democratic Party,False
+11,District 6,Gary Palmer,Alabama,house,,True
+12,District 7,Terri Sewell,Alabama,house,,True
+13,,Don Young,Alaska,house,Republican Party,True
+14,,Alyse Galvin,Alaska,house,Democratic Party,False
+15,,Greg Fitch,Alaska,house,Independent Party,False
+16,,Sid Hill,Alaska,house,Independent Party,False
+17,District 1,Tom O'Halleran,Arizona,house,Democratic Party,True
+18,District 1,Wendy Rogers,Arizona,house,Republican Party,False
+19,District 1,David Shock,Arizona,house,Independent Party,False
+20,District 2,Ann Kirkpatrick,Arizona,house,Democratic Party,False
+21,District 2,Lea Marquez Peterson,Arizona,house,Republican Party,False
+22,District 2,Melissa Grable,Arizona,house,Republican Party,False
+23,District 2,Jordan Flayer,Arizona,house,Independent Party,False
+24,District 3,Raul Grijalva,Arizona,house,Democratic Party,True
+25,District 3,Nicolas Pierson,Arizona,house,Republican Party,False
+26,District 3,Jaime Vasquez,Arizona,house,,False
+27,District 4,Paul Gosar,Arizona,house,Republican Party,True
+28,District 4,David Brill,Arizona,house,Democratic Party,False
+29,District 4,Haryaksha Gregor Knauer,Arizona,house,Green Party,False
+30,District 5,Andy Biggs,Arizona,house,Republican Party,True
+31,District 5,Joan Greene,Arizona,house,Democratic Party,False
+32,District 6,David Schweikert,Arizona,house,Republican Party,True
+33,District 6,Anita Malik,Arizona,house,Democratic Party,False
+34,District 7,Ruben Gallego,Arizona,house,Democratic Party,True
+35,District 7,Gary Swing,Arizona,house,Green Party,False
+36,District 7,"James ""007"" Bond IV",Arizona,house,Republican Party,False
+37,District 8,Debbie Lesko,Arizona,house,Republican Party,True
+38,District 8,Hiral Tipirneni,Arizona,house,Democratic Party,False
+39,District 8,Augie Beyer,Arizona,house,,False
+40,District 8,Steven Hummel,Arizona,house,No Party Preference,False
+41,District 9,Greg Stanton,Arizona,house,Democratic Party,False
+42,District 9,Steve Ferrara,Arizona,house,Republican Party,False
+43,District 9,Kiko Rex,Arizona,house,,False
+44,District 1,Rick Crawford,Arkansas,house,Republican Party,True
+45,District 1,Chintan Desai,Arkansas,house,Democratic Party,False
+46,District 1,Elvis Presley,Arkansas,house,Libertarian Party,False
+47,District 2,French Hill,Arkansas,house,,True
+48,District 2,Clarke Tucker,Arkansas,house,Democratic Party,False
+49,District 2,Joe Swafford,Arkansas,house,Libertarian Party,False
+50,District 3,Steve Womack,Arkansas,house,Republican Party,True
+51,District 3,Joshua Mahony,Arkansas,house,Democratic Party,False
+52,District 3,Michael Kalagias,Arkansas,house,Libertarian Party,False
+53,District 3,Josh Moody,Arkansas,house,,False
+54,District 3,Jason Tate,Arkansas,house,,False
+55,District 4,Bruce Westerman,Arkansas,house,Republican Party,True
+56,District 4,Hayden Shamel,Arkansas,house,Democratic Party,False
+57,District 4,Tom Canada,Arkansas,house,Libertarian Party,False
+58,District 4,Lee McQueen,Arkansas,house,,False
+59,District 4,Jack Foster,Arkansas,house,,False
+60,District 4,Susan Ann Martin,Arkansas,house,,False
+61,District 1,Doug LaMalfa,California,house,Republican Party,True
+62,District 1,Audrey Denney,California,house,Democratic Party,False
+63,District 2,Jared Huffman,California,house,Democratic Party,True
+64,District 2,Dale Mensing,California,house,Republican Party,False
+65,District 3,John Garamendi,California,house,Democratic Party,True
+66,District 3,Charlie Schaupp,California,house,Republican Party,False
+67,District 4,Tom McClintock,California,house,Republican Party,True
+68,District 4,Jessica Morse,California,house,Democratic Party,False
+69,District 5,Mike Thompson,California,house,Democratic Party,True
+70,District 5,Anthony Mills,California,house,Independent,False
+71,District 6,Doris Matsui,California,house,Democratic Party,True
+72,District 6,Jrmar Jefferson,California,house,Democratic Party,False
+73,District 7,Ami Bera,California,house,Democratic Party,True
+74,District 7,Andrew Grant,California,house,Republican Party,False
+75,District 8,Paul Cook,California,house,Republican Party,True
+76,District 8,Tim Donnelly,California,house,Republican Party,False
+77,District 9,Jerry McNerney,California,house,Democratic Party,True
+78,District 9,Marla Livengood,California,house,Republican Party,False
+79,District 10,Jeff Denham,California,house,Republican Party,True
+80,District 10,Josh Harder,California,house,Democratic Party,False
+81,District 11,Mark DeSaulnier,California,house,Democratic Party,True
+82,District 11,John Fitzgerald,California,house,Republican Party,False
+83,District 12,Nancy Pelosi,California,house,Democratic Party,True
+84,District 12,Lisa Remmer,California,house,Republican Party,False
+85,District 13,Barbara Lee,California,house,Democratic Party,True
+86,District 13,Laura Wells,California,house,Green Party,False
+87,District 14,Jackie Speier,California,house,Democratic Party,True
+88,District 14,Cristina Osmeña,California,house,Republican Party,False
+89,District 15,Eric Swalwell,California,house,Democratic Party,True
+90,District 15,Rudy Peters,California,house,Republican Party,False
+91,District 16,Jim Costa,California,house,Democratic Party,True
+92,District 16,Elizabeth Heng,California,house,Republican Party,False
+93,District 17,Ro Khanna,California,house,Democratic Party,True
+94,District 17,Ron Cohen,California,house,Republican Party,False
+95,District 18,Anna Eshoo,California,house,Democratic Party,True
+96,District 18,Christine Russell,California,house,Republican Party,False
+97,District 19,Zoe Lofgren,California,house,Democratic Party,True
+98,District 19,Justin Aguilera,California,house,Republican Party,False
+99,District 20,Jimmy Panetta,California,house,Democratic Party,True
+100,District 20,Ronald Paul Kabat,California,house,Independent,False
+101,District 21,David Valadao,California,house,Republican Party,True
+102,District 21,TJ Cox,California,house,Democratic Party,False
+103,District 22,Devin Nunes,California,house,Republican Party,True
+104,District 22,Andrew Janz,California,house,Democratic Party,False
+105,District 23,Kevin McCarthy,California,house,Republican Party,True
+106,District 23,Tatiana Matta,California,house,Democratic Party,False
+107,District 24,Salud Carbajal,California,house,Democratic Party,True
+108,District 24,Justin Fareed,California,house,Republican Party,False
+109,District 25,Stephen Knight,California,house,Democratic Party,False
+110,District 26,Julia Brownley,California,house,Democratic Party,True
+111,District 26,Antonio Sabato Jr.,California,house,Republican Party,False
+112,District 27,Judy Chu,California,house,Democratic Party,True
+113,District 27,Bryan Witt,California,house,Democratic Party,False
+114,District 28,Adam Schiff,California,house,Democratic Party,True
+115,District 28,Johnny Nalbandian,California,house,Republican Party,False
+116,District 29,Tony Cardenas,California,house,Democratic Party,True
+117,District 29,Benito Bernal,California,house,Republican Party,False
+118,District 30,Brad Sherman,California,house,Democratic Party,True
+119,District 30,Mark Reed,California,house,Republican Party,False
+120,District 31,Pete Aguilar,California,house,Democratic Party,True
+121,District 31,Sean Flynn,California,house,Republican Party,False
+122,District 32,Grace Napolitano,California,house,Democratic Party,True
+123,District 32,Joshua Scott,California,house,Republican Party,False
+124,District 33,Ted Lieu,California,house,Democratic Party,True
+125,District 33,Kenneth Wright,California,house,Republican Party,False
+126,District 34,Jimmy Gomez,California,house,Democratic Party,True
+127,District 34,Kenneth Mejia,California,house,Green Party,False
+128,District 35,Norma Torres,California,house,Democratic Party,True
+129,District 35,Christian Valiente,California,house,Republican Party,False
+130,District 36,Raul Ruiz,California,house,Democratic Party,True
+131,District 36,Kimberlin Brown Pelzer,California,house,Republican Party,False
+132,District 37,Karen Bass,California,house,Democratic Party,True
+133,District 37,Ron Bassilian,California,house,Republican Party,False
+134,District 38,Linda Sánchez,California,house,Democratic Party,True
+135,District 38,Ryan Downing,California,house,Republican Party,False
+136,District 39,Gil Cisneros,California,house,Democratic Party,False
+137,District 39,Young Kim,California,house,Republican Party,False
+138,District 40,Lucille Roybal-Allard,California,house,Democratic Party,True
+139,District 40,Rodolfo Cortes Barragan,California,house,Green Party,False
+140,District 41,Mark Takano,California,house,Democratic Party,True
+141,District 41,Aja Smith,California,house,Republican Party,False
+142,District 42,Ken Calvert,California,house,Republican Party,True
+143,District 42,Julia Peacock,California,house,Democratic Party,False
+144,District 43,Maxine Waters,California,house,Democratic Party,True
+145,District 43,Omar Navarro,California,house,Republican Party,False
+146,District 44,Nanette Barragán,California,house,Democratic Party,True
+147,District 44,Aja Brown,California,house,Democratic Party,False
+148,District 45,Mimi Walters,California,house,Republican Party,True
+149,District 45,Katie Porter,California,house,Democratic Party,False
+150,District 46,Lou Correa,California,house,Democratic Party,True
+151,District 46,Russell Lambert,California,house,Republican Party,False
+152,District 47,Alan Lowenthal,California,house,Democratic Party,True
+153,District 47,John Briscoe,California,house,Republican Party,False
+154,District 48,Dana Rohrabacher,California,house,Republican Party,True
+155,District 48,Harley Rouda,California,house,Democratic Party,False
+156,District 49,Mike Levin,California,house,Democratic Party,False
+157,District 49,Diane Harkey,California,house,Republican Party,False
+158,District 50,Duncan Hunter,California,house,Republican Party,True
+159,District 50,Ammar Campa-Najjar,California,house,Democratic Party,False
+160,District 51,Juan Vargas,California,house,Democratic Party,True
+161,District 51,Juan Hidalgo Jr.,California,house,Republican Party,False
+162,District 52,Scott Peters,California,house,Democratic Party,True
+163,District 52,Omar Qudrat,California,house,Republican Party,False
+164,District 53,Susan Davis,California,house,Democratic Party,True
+165,District 53,Morgan Murtaugh,California,house,Republican Party,False
+166,District 1,Diana DeGette,Colorado,house,Democratic Party,True
+167,District 1,Casper Stockham,Colorado,house,Republican Party,False
+168,District 1,Raymon Doane,Colorado,house,Libertarian Party,False
+169,District 1,Paul Daly,Colorado,house,,False
+170,District 1,Miguel Lopez,Colorado,house,Democratic Party,False
+171,District 2,Joe Neguse,Colorado,house,Democratic Party,False
+172,District 2,Peter Yu,Colorado,house,Republican Party,False
+173,District 2,Roger Barris,Colorado,house,Libertarian Party,False
+174,District 2,Nick Thomas,Colorado,house,Independent Party,False
+175,District 2,Kevin Alumbaugh,Colorado,house,Green Party,False
+176,District 3,Scott Tipton,Colorado,house,Republican Party,True
+177,District 3,Diane Mitsch Bush,Colorado,house,Democratic Party,False
+178,District 3,Gaylon Kent,Colorado,house,Libertarian Party,False
+179,District 3,Mary Malarsie,Colorado,house,Independent Party,False
+180,District 3,Allen Tompkins,Colorado,house,,False
+181,District 3,Bruce Lohmiller,Colorado,house,Green Party,False
+182,District 3,Gary Swing,Colorado,house,Green Party,False
+183,District 3,Richard Tetu,Colorado,house,Grey.png,False
+184,District 4,Ken Buck,Colorado,house,Republican Party,True
+185,District 4,Karen McCormick,Colorado,house,Democratic Party,False
+186,District 4,Richard Lyons Weil,Colorado,house,Democratic Party,False
+187,District 4,John Vigil,Colorado,house,Green Party,False
+188,District 5,Doug Lamborn,Colorado,house,Republican Party,True
+189,District 5,Stephany Rose Spaulding,Colorado,house,Democratic Party,False
+190,District 5,Douglas Randall,Colorado,house,Libertarian Party,False
+191,District 5,Lori Furstenberg,Colorado,house,Democratic Party,False
+192,District 5,John Croom,Colorado,house,Grey.png,False
+193,District 6,Mike Coffman,Colorado,house,Colorado Party,True
+194,District 6,Jason Crow,Colorado,house,Democratic Party,False
+195,District 6,Kat Martin,Colorado,house,Libertarian Party,False
+196,District 6,Dan Chapin,Colorado,house,Unaffiliated Party,False
+197,District 6,Christopher Allen,Colorado,house,Green Party,False
+198,District 7,Ed Perlmutter,Colorado,house,Democratic Party,True
+199,District 7,Mark Barrington,Colorado,house,Republican Party,False
+200,District 7,Jennifer Nackerud,Colorado,house,Libertarian Party,False
+201,District 7,Nathan Clay,Colorado,house,,False
+202,District 7,Marcus France,Colorado,house,,False
+203,District 7,Steve Zorn,Colorado,house,Democratic Party,False
+204,District 7,Michael Haughey,Colorado,house,Green Party,False
+205,District 1,John Larson,Connecticut,house,Democratic Party,True
+206,District 1,Jennifer Nye,Connecticut,house,Republican Party,False
+207,District 1,Tom McCormick,Connecticut,house,Green Party,False
+208,District 2,Joe Courtney,Connecticut,house,,False
+209,District 2,Dan Postemski,Connecticut,house,Republican Party,False
+210,District 2,Michelle Louise Bicking,Connecticut,house,Green Party,False
+211,District 2,Daniel Reale,Connecticut,house,Libertarian Party,False
+212,District 3,Rosa L. DeLauro,Connecticut,house,Democratic Party,True
+213,District 3,Angel Cadena,Connecticut,house,Republican Party,False
+214,District 4,Jim Himes,Connecticut,house,Democratic Party,True
+215,District 4,Harry Arora,Connecticut,house,Republican Party,False
+216,District 5,Jahana Hayes,Connecticut,house,Democratic Party,False
+217,District 5,Manny Santos,Connecticut,house,Republican Party,False
+218,District 5,John Pistone,Connecticut,house,Independent Conservative Party,False
+224,,Lisa Blunt Rochester,Delaware,house,Green check mark transparent.png,False
+225,,Scott Walker,Delaware,house,Republican Party,False
+226,,Andrew Webb,Delaware,house,,False
+227,,Marvin Davis,Delaware,house,,False
+228,,Paul Johnston,Delaware,house,,False
+229,District 2,Neal Dunn,Florida,house,Republican Party,True
+230,District 2,Bob Rackleff,Florida,house,Democratic Party,False
+231,District 3,Ted Yoho,Florida,house,Republican Party,True
+232,District 3,Yvonne Hayes Hinson,Florida,house,Democratic Party,False
+233,District 4,John Rutherford,Florida,house,Republican Party,True
+234,District 4,Ges Selmont,Florida,house,Democratic Party,False
+235,District 4,Joceline Berrios,Florida,house,Independent Party,False
+236,District 4,Jason Bulger,Florida,house,Independent Party,False
+237,District 5,Alfred Lawson,Florida,house,Democratic Party,True
+238,District 5,Virginia Fuller,Florida,house,Republican Party,False
+239,District 6,Nancy Soderberg,Florida,house,Democratic Party,False
+240,District 6,Michael Waltz,Florida,house,Republican Party,False
+241,District 7,Stephanie Murphy,Florida,house,Democratic Party,True
+242,District 7,Mike Miller,Florida,house,Republican Party,False
+243,District 7,Jose Valdez,Florida,house,,False
+244,District 8,Bill Posey,Florida,house,Republican Party,True
+245,District 8,Sanjay Patel,Florida,house,Democratic Party,False
+246,District 9,Darren Soto,Florida,house,Democratic Party,True
+247,District 9,Wayne Liebnitzky,Florida,house,Republican Party,False
+248,District 10,Val Demings,Florida,house,Democratic Party,True
+249,District 11,Daniel Webster,Florida,house,Florida Party,True
+250,District 11,Dana Cottrell,Florida,house,Democratic Party,False
+251,District 12,Gus M. Bilirakis,Florida,house,Republican Party,True
+252,District 12,Chris Hunter,Florida,house,Democratic Party,False
+253,District 12,Angelika Purkis,Florida,house,Independent Party,False
+254,District 13,Charlie Crist,Florida,house,Democratic Party,True
+255,District 13,George Buck,Florida,house,Republican Party,False
+256,District 14,Kathy Castor,Florida,house,Democratic Party,True
+257,District 15,Kristen Carlson,Florida,house,Democratic Party,False
+258,District 15,Ross Spano,Florida,house,Republican Party,False
+259,District 16,Vern Buchanan,Florida,house,Republican Party,True
+260,District 16,David Shapiro,Florida,house,Democratic Party,False
+261,District 16,Eric Allen,Florida,house,,False
+262,District 16,Sean Canfield,Florida,house,,False
+263,District 16,Robert Samuel Kaplan,Florida,house,,False
+264,District 17,Allen Ellison,Florida,house,Democratic Party,False
+265,District 17,Greg Steube,Florida,house,Republican Party,False
+266,District 17,April Freeman,Florida,house,,False
+267,District 18,Brian Mast,Florida,house,Republican Party,True
+268,District 18,Lauren Baer,Florida,house,Democratic Party,False
+269,District 19,Francis Rooney,Florida,house,Republican Party,True
+270,District 19,David Holden,Florida,house,Democratic Party,False
+271,District 20,Alcee L. Hastings,Florida,house,Democratic Party,True
+272,District 21,Lois Frankel,Florida,house,Democratic Party,True
+273,District 22,Theodore E. Deutch,Florida,house,Democratic Party,True
+274,District 22,Nicolas Kimaz,Florida,house,Republican Party,False
+275,District 23,Debbie Wasserman Schultz,Florida,house,Democratic Party,True
+276,District 23,Joe Kaufman,Florida,house,Republican Party,False
+277,District 23,Tim Canova,Florida,house,Independent Party,False
+278,District 23,Don Endriss,Florida,house,Independent Party,False
+279,District 23,Stuart Reed,Florida,house,,False
+280,District 24,Frederica S. Wilson,Florida,house,Democratic Party,True
+281,District 25,Mario Diaz-Balart,Florida,house,Republican Party,True
+282,District 25,Mary Barzee Flores,Florida,house,Democratic Party,False
+283,District 26,Carlos Curbelo,Florida,house,Republican Party,True
+284,District 26,Debbie Mucarsel-Powell,Florida,house,Democratic Party,False
+285,District 26,Edward Bonilla,Florida,house,,False
+286,District 27,Donna Shalala,Florida,house,Democratic Party,False
+287,District 27,Maria Elvira Salazar,Florida,house,Republican Party,False
+288,District 27,Mayra Joli,Florida,house,Independent Party,False
+289,District 27,Cassandra Anna Hefton,Florida,house,,False
+290,District 27,Ian Hamilton Trottier,Florida,house,,False
+291,District 1,"Earl ""Buddy"" Carter",Georgia,house,Republican Party,False
+292,District 1,Lisa Ring,Georgia,house,Democratic Party,False
+293,District 2,Sanford Bishop Jr.,Georgia,house,Democratic Party,False
+294,District 2,Herman West Jr.,Georgia,house,Republican Party,False
+295,District 3,Drew Ferguson,Georgia,house,,False
+296,District 3,Chuck Enderlin,Georgia,house,Democratic Party,False
+297,District 4,Hank Johnson,Georgia,house,,False
+298,District 4,Joe Profit,Georgia,house,Republican Party,False
+299,District 5,John Lewis,Georgia,house,Georgia Party,False
+300,District 6,Karen Handel,Georgia,house,,False
+301,District 6,Lucy McBath,Georgia,house,Democratic Party,False
+302,District 6,Jeremy Stubbs,Georgia,house,Grey.png,False
+303,District 7,Rob Woodall,Georgia,house,,False
+304,District 7,Carolyn Bourdeaux,Georgia,house,Democratic Party,False
+305,District 8,Austin Scott,Georgia,house,,True
+306,District 8,Jimmy Cooper,Georgia,house,Green Party,False
+307,District 9,Doug Collins,Georgia,house,,False
+308,District 9,Josh McCall,Georgia,house,Democratic Party,False
+309,District 9,Clifford Baxter,Georgia,house,Grey.png,False
+310,District 10,Jody Hice,Georgia,house,,False
+311,District 10,Tabitha Johnson-Green,Georgia,house,Democratic Party,False
+312,District 10,Patrick Moorehead,Georgia,house,Independent,False
+313,District 11,Barry Loudermilk,Georgia,house,,False
+314,District 11,Flynn Broady Jr.,Georgia,house,Democratic Party,False
+315,District 11,Bar-Kim Green,Georgia,house,Independent,False
+316,District 12,Rick Allen,Georgia,house,,False
+317,District 12,Francys Johnson,Georgia,house,Democratic Party,False
+318,District 12,Brian Brown,Georgia,house,Independent,False
+319,District 12,Mary West,Georgia,house,Independent,False
+320,District 13,David Scott,Georgia,house,Georgia Party,False
+321,District 13,David Callahan,Georgia,house,Republican Party,False
+322,District 13,Martin L. Cowen,Georgia,house,Libertarian Party,False
+323,District 14,Tom Graves,Georgia,house,,False
+324,District 14,Steven Foster,Georgia,house,Democratic Party,False
+325,District 1,Ed Case,Hawaii,house,Democratic Party,False
+326,District 1,Cam Cavasso,Hawaii,house,Republican Party,False
+327,District 1,Zachary Burd,Hawaii,house,Green Party,False
+328,District 1,Michelle Rose Tippens,Hawaii,house,Libertarian Party,False
+329,District 1,Calvin Griffin,Hawaii,house,Nonpartisan Party,False
+330,District 2,Tulsi Gabbard,Hawaii,house,Democratic Party,True
+331,District 2,Brian Evans,Hawaii,house,Republican Party,False
+332,District 1,Cristina McNeil,Idaho,house,Democratic Party,False
+333,District 1,Russ Fulcher,Idaho,house,Republican Party,False
+334,District 1,W. Scott Howard,Idaho,house,Libertarian Party,False
+335,District 1,Pro-Life,Idaho,house,Constitution Party,False
+336,District 1,Gordon Counsil,Idaho,house,Grey.png,False
+337,District 1,Paul Farmer,Idaho,house,Grey.png,False
+338,District 1,Natalie Fleming,Idaho,house,Grey.png,False
+339,District 1,Michael Rath,Idaho,house,Grey.png,False
+340,District 2,Michael Simpson,Idaho,house,Idaho Party,True
+341,District 2,Aaron Swisher,Idaho,house,Democratic Party,False
+342,District 1,Bobby Rush,Illinois,house,Democratic Party,True
+343,District 1,Jimmy Lee Tillman II,Illinois,house,Republican Party,False
+344,District 1,Thomas Rudbeck,Illinois,house,Independent Party,False
+345,District 2,Robin Kelly,Illinois,house,Democratic Party,True
+346,District 2,David Merkle,Illinois,house,Republican Party,False
+347,District 3,Daniel Lipinski,Illinois,house,Democratic Party,True
+348,District 3,Arthur Jones,Illinois,house,Republican Party,False
+349,District 3,Justin Hanson,Illinois,house,Grey.png,False
+350,District 3,Kenneth Yerkes,Illinois,house,Grey.png,False
+351,District 4,Jesus Garcia,Illinois,house,Democratic Party,False
+352,District 4,Mark Wayne Lorch,Illinois,house,Republican Party,False
+353,District 4,Ann Melichar,Illinois,house,,False
+354,District 4,"Ruben Sanchez, Jr.",Illinois,house,,False
+355,District 5,Mike Quigley,Illinois,house,Democratic Party,True
+356,District 5,Tom Hanson,Illinois,house,Republican Party,False
+357,District 6,Peter J. Roskam,Illinois,house,Republican Party,True
+358,District 6,Sean Casten,Illinois,house,Democratic Party,False
+359,District 7,Danny K. Davis,Illinois,house,Democratic Party,True
+360,District 7,Craig Cameron,Illinois,house,Republican Party,False
+361,District 7,Ahmed Salim,Illinois,house,,False
+362,District 8,Raja Krishnamoorthi,Illinois,house,Democratic Party,True
+363,District 8,Jitendra Diganvker,Illinois,house,Republican Party,False
+364,District 8,Andrew Straw,Illinois,house,,False
+365,District 8,Vandana Jhingan,Illinois,house,,False
+366,District 9,Jan Schakowsky,Illinois,house,Democratic Party,True
+367,District 9,John Elleson,Illinois,house,Republican Party,False
+368,District 10,Brad Schneider,Illinois,house,Democratic Party,True
+369,District 10,Doug Bennett,Illinois,house,Republican Party,False
+370,District 11,Bill Foster,Illinois,house,Democratic Party,True
+371,District 11,Nick Stella,Illinois,house,Republican Party,False
+372,District 12,Mike Bost,Illinois,house,Republican Party,True
+373,District 12,Brendan Kelly,Illinois,house,Democratic Party,False
+374,District 12,Randy Auxier,Illinois,house,Green Party,False
+375,District 12,Charles Koen,Illinois,house,,False
+376,District 12,David Bequette,Illinois,house,,False
+377,District 12,Brendan Kelly,Illinois,house,Democratic Party,False
+378,District 12,Mike Bost,Illinois,house,Republican Party,True
+379,District 12,Preston Nelson,Illinois,house,,False
+380,District 13,Rodney Davis,Illinois,house,Republican Party,True
+381,District 13,Betsy Londrigan,Illinois,house,Democratic Party,False
+382,District 14,Randy Hultgren,Illinois,house,Republican Party,True
+383,District 14,Lauren Underwood,Illinois,house,Democratic Party,False
+384,District 15,John Shimkus,Illinois,house,Republican Party,True
+385,District 15,Kevin Gaither,Illinois,house,Democratic Party,False
+386,District 16,Adam Kinzinger,Illinois,house,Republican Party,True
+387,District 16,Sara Dady,Illinois,house,Democratic Party,False
+388,District 17,Cheri Bustos,Illinois,house,Democratic Party,True
+389,District 17,Bill Fawell,Illinois,house,Republican Party,False
+390,District 18,Darin LaHood,Illinois,house,Republican Party,True
+391,District 18,Junius Rodriguez,Illinois,house,Democratic Party,False
+392,District 1,Peter Visclosky,Indiana,house,Democratic Party,False
+393,District 1,Mark Leyva,Indiana,house,Republican Party,False
+394,District 1,Jonathan Kleinman,Indiana,house,Grey.png,False
+395,District 2,Jackie Walorski,Indiana,house,,False
+396,District 2,Mel Hall,Indiana,house,Democratic Party,False
+397,District 2,Richard Wolf,Indiana,house,Grey.png,False
+398,District 3,Jim Banks,Indiana,house,,False
+399,District 3,Courtney Tritch,Indiana,house,Democratic Party,False
+400,District 4,Tobi Beck,Indiana,house,Democratic Party,False
+401,District 4,Jim Baird,Indiana,house,Republican Party,False
+402,District 5,Susan Brooks,Indiana,house,,False
+403,District 5,Dee Thornton,Indiana,house,Democratic Party,False
+404,District 6,Jeannine Lee Lake,Indiana,house,Democratic Party,False
+405,District 6,Greg Pence,Indiana,house,Republican Party,False
+406,District 6,&#91;3&#93;,Indiana,house,Libertarian Party,False
+407,District 6,Heather Meloy,Indiana,house,Grey.png,False
+408,District 6,John Miller,Indiana,house,Grey.png,False
+409,District 7,Andre Carson,Indiana,house,,False
+410,District 7,Wayne Harmon,Indiana,house,Republican Party,False
+411,District 8,Larry Bucshon,Indiana,house,,False
+412,District 8,William Tanoos,Indiana,house,Democratic Party,False
+413,District 9,Trey Hollingsworth,Indiana,house,,False
+414,District 9,Liz Watson,Indiana,house,Democratic Party,False
+415,District 1,Rod Blum,Iowa,house,Republican Party,True
+416,District 1,Abby Finkenauer,Iowa,house,Democratic Party,False
+417,District 1,Troy Hageman,Iowa,house,Libertarian Party,False
+418,District 1,Henry Gaff,Iowa,house,,False
+419,District 2,Dave Loebsack,Iowa,house,Democratic Party,True
+420,District 2,Chris Peters,Iowa,house,Republican Party,False
+421,District 2,Mark Strauss,Iowa,house,Libertarian Party,False
+422,District 2,Daniel Clark,Iowa,house,Independent Party,False
+423,District 3,David Young,Iowa,house,Iowa Party,True
+424,District 3,Cindy Axne,Iowa,house,Democratic Party,False
+425,District 3,Paul Knupp,Iowa,house,Green Party,False
+426,District 3,Mark G. Elworth  Jr.,Iowa,house,Legal Medical Now Party Party,False
+427,District 3,Bryan Holder,Iowa,house,Libertarian Party,False
+428,District 3,Joe Grandanette,Iowa,house,Independent Party,False
+429,District 3,Cindy Axne,Iowa,house,Democratic Party,False
+430,District 3,Pete D'Alessandro,Iowa,house,,False
+431,District 3,Eddie Mauro,Iowa,house,,False
+432,District 4,Steve King,Iowa,house,Iowa Party,True
+433,District 4,J.D. Scholten,Iowa,house,Democratic Party,False
+434,District 4,Charles Aldrich,Iowa,house,Libertarian Party,False
+435,District 4,Edward Peterson,Iowa,house,Independent Party,False
+436,District 3,Kevin Yoder,Kansas,house,Republican Party,True
+437,District 3,Sharice Davids,Kansas,house,Democratic Party,False
+438,District 3,Chris Clemmons,Kansas,house,Libertarian Party,False
+439,District 1,James Comer,Kentucky,house,Republican Party,True
+440,District 1,Paul Walker,Kentucky,house,Democratic Party,False
+441,District 2,Brett Guthrie,Kentucky,house,,True
+442,District 2,Hank Linderman,Kentucky,house,Democratic Party,False
+443,District 2,Thomas Loecken,Kentucky,house,Grey.png,False
+444,District 3,John Yarmuth,Kentucky,house,,True
+445,District 3,Vickie Yates Glisson,Kentucky,house,Republican Party,False
+446,District 3,Gregory Boles,Kentucky,house,Libertarian Party,False
+447,District 4,Thomas Massie,Kentucky,house,,True
+448,District 4,Seth Hall,Kentucky,house,Democratic Party,False
+449,District 4,Mike Moffett,Kentucky,house,Grey.png,False
+450,District 4,David Goodwin,Kentucky,house,Grey.png,False
+451,District 5,Hal Rogers,Kentucky,house,,True
+452,District 5,Kenneth Stepp,Kentucky,house,Democratic Party,False
+453,District 5,Billy Ray Wilson,Kentucky,house,Grey.png,False
+454,District 6,Andy Barr,Kentucky,house,,True
+455,District 6,Amy McGrath,Kentucky,house,Democratic Party,False
+456,District 6,Frank Harris,Kentucky,house,Libertarian Party,False
+457,District 6,James Germalic,Kentucky,house,Grey.png,False
+458,District 6,Rikka Wallin,Kentucky,house,Grey.png,False
+459,District 1,Steve Scalise,Louisiana,house,Republican Party,True
+460,District 1,Lee Ann Dugas,Louisiana,house,Democratic Party,False
+461,District 1,Jim Francis,Louisiana,house,Democratic Party,False
+462,District 1,Tammy Savoie,Louisiana,house,Democratic Party,False
+463,District 1,Howard Kearney,Louisiana,house,Libertarian Party,False
+464,District 1,Frederick Jones,Louisiana,house,Independent Party,False
+465,District 2,Cedric Richmond,Louisiana,house,Democratic Party,True
+466,District 2,Belden Batiste,Louisiana,house,Independent Party,False
+467,District 2,Shawndra Rodriguez,Louisiana,house,Independent Party,False
+468,District 2,Jesse Schmidt,Louisiana,house,Independent Party,False
+469,District 3,Clay Higgins,Louisiana,house,Republican Party,True
+470,District 3,Rob Anderson,Louisiana,house,Democratic Party,False
+471,District 3,"Mildred ""Mimi"" Methvin",Louisiana,house,,False
+472,District 3,Larry Rader,Louisiana,house,Democratic Party,False
+473,District 3,Verone Thomas,Louisiana,house,Democratic Party,False
+474,District 3,Josh Guillory,Louisiana,house,Republican Party,False
+475,District 3,Aaron Andrus,Louisiana,house,Libertarian Party,False
+476,District 3,Phillip Conner,Louisiana,house,,False
+477,District 3,Dave Langlinais,Louisiana,house,,False
+478,District 4,Mike Johnson,Louisiana,house,Louisiana Party,True
+479,District 4,Ryan Trundle,Louisiana,house,Democratic Party,False
+480,District 4,Mark Halverson,Louisiana,house,Independent Party,False
+481,District 5,Ralph Abraham,Louisiana,house,Republican Party,True
+482,District 5,Jessee Carlton Fleenor,Louisiana,house,Democratic Party,False
+483,District 5,Kyle Randol,Louisiana,house,Libertarian Party,False
+484,District 5,Billy Burkette,Louisiana,house,Independent Party,False
+485,District 6,Garret Graves,Louisiana,house,Republican Party,True
+486,District 6,Justin DeWitt,Louisiana,house,Democratic Party,False
+487,District 6,Andie Saizan,Louisiana,house,Democratic Party,False
+488,District 6,Devin Lance Graham,Louisiana,house,Independent Party,False
+489,District 1,Chellie Pingree,Maine,house,Democratic Party,True
+490,District 1,Mark Holbrook,Maine,house,Republican Party,False
+491,District 1,Martin Grohman,Maine,house,Independent Party,False
+492,District 2,Bruce Poliquin,Maine,house,Republican Party,True
+493,District 2,Jared Golden,Maine,house,Democratic Party,False
+494,District 2,Tiffany Bond,Maine,house,Independent Party,False
+495,District 2,Will Hoar,Maine,house,Independent Party,False
+496,District 2,Dennis O'Connor,Maine,house,,False
+497,District 2,Danielle VanHelsing,Maine,house,,False
+498,District 2,Henry John Bear,Maine,house,,False
+499,District 1,Andy Harris,Maryland,house,Republican Party,False
+500,District 1,Jesse Colvin,Maryland,house,Democratic Party,False
+501,District 1,Jenica Martin,Maryland,house,Libertarian Party,False
+502,District 2,Dutch Ruppersberger,Maryland,house,Democratic Party,True
+503,District 2,Liz Matory,Maryland,house,Republican Party,False
+504,District 2,Guy Mimoun,Maryland,house,Green Party,False
+505,District 2,Michael Carney,Maryland,house,Libertarian Party,False
+506,District 3,John Sarbanes,Maryland,house,,False
+507,District 3,Charles Anthony,Maryland,house,Republican Party,False
+508,District 3,David Lashar,Maryland,house,Libertarian Party,False
+509,District 4,Anthony Brown,Maryland,house,Maryland Party,False
+510,District 4,George McDermott,Maryland,house,Republican Party,False
+511,District 4,David Bishop,Maryland,house,Libertarian Party,False
+512,District 5,Steny Hoyer,Maryland,house,,False
+513,District 5,William Devine III,Maryland,house,Republican Party,False
+514,District 5,Jacob Pulcher,Maryland,house,Libertarian Party,False
+515,District 5,Patrick Elder,Maryland,house,Green Party,False
+516,District 6,David Trone,Maryland,house,Democratic Party,False
+517,District 6,Amie Hoeber,Maryland,house,Republican Party,False
+518,District 6,George Gluck,Maryland,house,Green Party,False
+519,District 6,Kevin Caldwell,Maryland,house,Libertarian Party,False
+520,District 6,Ted Athey,Maryland,house,,False
+521,District 7,Elijah Cummings,Maryland,house,,False
+522,District 7,Richmond Davis,Maryland,house,Republican Party,False
+523,District 7,David Griggs,Maryland,house,Libertarian Party,False
+524,District 8,Jamie Raskin,Maryland,house,,False
+525,District 8,John Walsh,Maryland,house,Republican Party,False
+526,District 8,Jasen Wunder,Maryland,house,Libertarian Party,False
+527,District 1,Richard Neal,Massachusetts,house,Democratic Party,True
+528,District 2,Jim McGovern,Massachusetts,house,Massachusetts Party,True
+529,District 2,Tracy Lovvorn,Massachusetts,house,Republican Party,False
+530,District 2,Paul Grady,Massachusetts,house,,False
+531,District 3,Lori Trahan,Massachusetts,house,Democratic Party,False
+532,District 3,Rick Green,Massachusetts,house,Republican Party,False
+533,District 3,Mike Mullen,Massachusetts,house,Independent Party,False
+534,District 4,Joseph Kennedy III,Massachusetts,house,Democratic Party,True
+535,District 5,Katherine Clark,Massachusetts,house,Democratic Party,True
+536,District 5,John Hugo,Massachusetts,house,Republican Party,False
+537,District 6,Seth Moulton,Massachusetts,house,Democratic Party,True
+538,District 6,Joseph Schneider,Massachusetts,house,Republican Party,False
+539,District 6,Mary Jean Charbonneau,Massachusetts,house,Independent Party,False
+540,District 7,Ayanna Pressley,Massachusetts,house,Democratic Party,False
+541,District 8,Stephen Lynch,Massachusetts,house,Democratic Party,True
+542,District 9,Bill Keating,Massachusetts,house,Democratic Party,True
+543,District 9,Peter Tedeschi,Massachusetts,house,Republican Party,False
+544,District 1,Jack Bergman,Michigan,house,Republican Party,True
+545,District 1,Matthew Morgan,Michigan,house,Democratic Party,False
+546,District 2,Bill Huizenga,Michigan,house,,False
+547,District 2,Rob Davidson,Michigan,house,Democratic Party,False
+548,District 2,Ronald Graeser,Michigan,house,U.S. Taxpayers Party,False
+549,District 3,Justin Amash,Michigan,house,,False
+550,District 3,Cathy Albro,Michigan,house,,False
+551,District 3,Ted Gerrard,Michigan,house,,False
+552,District 4,John Moolenaar,Michigan,house,,False
+553,District 4,Jerry Hilliard,Michigan,house,,False
+554,District 5,Dan Kildee,Michigan,house,,False
+555,District 5,Travis Wines,Michigan,house,Republican Party,False
+556,District 5,Kathy Goodwin,Michigan,house,Working Class Party,False
+557,District 6,Fred Upton,Michigan,house,,False
+558,District 6,Matt Longjohn,Michigan,house,Democratic Party,False
+559,District 6,Stephen J. Young,Michigan,house,U.S. Taxpayers Party,False
+560,District 7,Tim Walberg,Michigan,house,,False
+561,District 7,Gretchen Driskell,Michigan,house,Democratic Party,False
+562,District 8,Mike Bishop,Michigan,house,,False
+563,District 8,Elissa Slotkin,Michigan,house,,False
+564,District 8,Brian Ellison,Michigan,house,,False
+565,District 8,David Jay Lillis,Michigan,house,,False
+566,District 9,Andy Levin,Michigan,house,,False
+567,District 9,Candius Stearns,Michigan,house,,False
+568,District 9,John McDermott,Michigan,house,,False
+569,District 9,Andrea Kirby,Michigan,house,,False
+570,District 10,Paul Mitchell,Michigan,house,,False
+571,District 10,Kimberly Bizon,Michigan,house,,False
+572,District 10,Harley Mikkelson,Michigan,house,,False
+573,District 10,Jeremy Peruski,Michigan,house,,False
+574,District 11,Haley Stevens,Michigan,house,,False
+575,District 11,Lena Epstein,Michigan,house,,False
+576,District 11,Leonard Schwartz ,Michigan,house,,False
+577,District 11,Cooper Nye,Michigan,house,,False
+578,District 12,Debbie Dingell,Michigan,house,,False
+579,District 12,Jeff Jones,Michigan,house,Republican Party,False
+580,District 12,Steve Young,Michigan,house,,False
+581,District 12,Niles Niemuth,Michigan,house,Independent Party,False
+582,District 12,Gary Walkowicz,Michigan,house,Working Class Party,False
+583,District 13,Rashida Tlaib,Michigan,house,Democratic Party,False
+584,District 13,D. Etta Wilcoxon,Michigan,house,Green Party,False
+585,District 13,Sam Johnson,Michigan,house,Working Class Party,False
+586,District 14,Brenda Lawrence,Michigan,house,,False
+587,District 14,Marc Herschfus,Michigan,house,Republican Party,False
+588,District 14,Philip Kolody,Michigan,house,Working Class Party,False
+589,District 2,Jason Lewis,Minnesota,house,Minnesota Party,True
+590,District 2,Angie Craig,Minnesota,house,Democratic Party,False
+591,District 2,Bradley Svenson,Minnesota,house,,False
+592,District 3,Erik Paulsen,Minnesota,house,Republican Party,True
+593,District 3,Dean Phillips,Minnesota,house,Democratic Party,False
+594,District 4,Betty McCollum,Minnesota,house,Democratic Party,True
+595,District 4,Greg Ryan,Minnesota,house,Republican Party,False
+596,District 4,Susan Pendergast Sindt,Minnesota,house,Legal Marijuana Now Party Party,False
+597,District 5,Ilhan Omar,Minnesota,house,Democratic Party,False
+598,District 5,Jennifer Zielinski,Minnesota,house,Republican Party,False
+599,District 5,Les Lester,Minnesota,house,Green Party,False
+600,District 6,Tom Emmer,Minnesota,house,Republican Party,True
+601,District 6,Ian Todd,Minnesota,house,Democratic Party,False
+602,District 7,Collin Peterson,Minnesota,house,Democratic Party,True
+603,District 7,Dave Hughes,Minnesota,house,Republican Party,False
+604,District 1,Trent Kelly,Mississippi,house,Republican Party,True
+605,District 1,Randy Wadkins,Mississippi,house,Democratic Party,False
+606,District 1,Tracella Lou O'Hara Hill,Mississippi,house,Grey.png,False
+607,District 2,Bennie Thompson,Mississippi,house,,True
+608,District 2,Troy Ray,Mississippi,house,Grey.png,False
+609,District 2,Irving Harris,Mississippi,house,Grey.png,False
+610,District 3,Michael Evans,Mississippi,house,Democratic Party,False
+611,District 3,Michael Guest,Mississippi,house,Republican Party,False
+612,District 3,Matthew Holland,Mississippi,house,Grey.png,False
+613,District 4,Steven Palazzo,Mississippi,house,,True
+614,District 4,Jeramey Anderson,Mississippi,house,Democratic Party,False
+615,District 4,Lajena Sheets,Mississippi,house,Grey.png,False
+616,District 1,William Lacy Clay,Missouri,house,Democratic Party,True
+617,District 1,Robert Vroman,Missouri,house,Republican Party,False
+618,District 1,Robb Cunningham,Missouri,house,Libertarian Party,False
+619,,Greg Gianforte,Montana,house,Republican Party,False
+620,,Kathleen Williams,Montana,house,Democratic Party,False
+621,,Elinor Swanson,Montana,house,Libertarian Party,False
+622,,Doug Campbell,Montana,house,,False
+623,District 1,Jeff Fortenberry,Nebraska,house,Republican Party,True
+624,District 1,Jessica McClure,Nebraska,house,Democratic Party,False
+625,District 2,Don Bacon,Nebraska,house,,True
+626,District 2,Kara Eastman,Nebraska,house,Democratic Party,False
+627,District 3,Adrian Smith,Nebraska,house,,True
+628,District 3,Paul Theobald,Nebraska,house,Democratic Party,False
+629,District 1,Dina Titus,Nevada,house,Democratic Party,True
+630,District 1,Joyce Bentley,Nevada,house,Republican Party,False
+631,District 1,Daniel Garfield,Nevada,house,Independent American Party Party,False
+632,District 1,Robert Van Strawder,Nevada,house,Libertarian Party,False
+633,District 2,Mark Amodei,Nevada,house,Republican Party,True
+634,District 2,Clint Koble,Nevada,house,Democratic Party,False
+635,District 3,Susie Lee,Nevada,house,Democratic Party,False
+636,District 3,Danny Tarkanian,Nevada,house,Republican Party,False
+637,District 3,Harry Vickers,Nevada,house,Independent American Party Party,False
+638,District 3,Steven Brown,Nevada,house,Libertarian Party,False
+639,District 3,Gilbert Eisner,Nevada,house,Independent Party,False
+640,District 3,David Goossen,Nevada,house,Independent Party,False
+641,District 3,Tony Gumina,Nevada,house,Independent Party,False
+642,District 4,Steven Horsford,Nevada,house,Democratic Party,False
+643,District 4,Cresent Hardy,Nevada,house,Republican Party,False
+644,District 4,Warren Markowitz,Nevada,house,Independent American Party Party,False
+645,District 4,Gregg Luckner,Nevada,house,Libertarian Party,False
+646,District 4,Dean McGonigle,Nevada,house,Independent Party,False
+647,District 4,Rodney Smith,Nevada,house,Independent Party,False
+648,,Chris Pappas,New_Hampshire,house,Democratic Party,False
+649,,Eddie Edwards,New_Hampshire,house,Republican Party,False
+650,,Dan Belforti,New_Hampshire,house,Libertarian Party,False
+651,,Shawn O&#39;Connor,New_Hampshire,house,Independent Party,False
+652,District 1,Donald Norcross,New_Jersey,house,Democratic Party,True
+653,District 1,Paul Dilks,New_Jersey,house,Republican Party,False
+654,District 1,Robert Shapiro,New_Jersey,house,Libertarian Party,False
+655,District 1,Paul Hamlin,New_Jersey,house,Grey.png,False
+656,District 1,Mohammad Kabir,New_Jersey,house,Grey.png,False
+657,District 2,Jeff Van Drew,New_Jersey,house,Democratic Party,False
+658,District 2,Seth Grossman,New_Jersey,house,Republican Party,False
+659,District 2,John Ordille,New_Jersey,house,Libertarian Party,False
+660,District 2,Anthony Parisi Sanchez,New_Jersey,house,Grey.png,False
+661,District 2,William Benfer,New_Jersey,house,Grey.png,False
+662,District 2,Steven Fenichel,New_Jersey,house,Grey.png,False
+663,District 3,Tom MacArthur,New_Jersey,house,,True
+664,District 3,Andrew Kim,New_Jersey,house,Democratic Party,False
+665,District 3,Lawrence Berlinski Jr.,New_Jersey,house,Constitution Party,False
+666,District 4,Chris Smith,New_Jersey,house,New Jersey Party,True
+667,District 4,Josh Welle,New_Jersey,house,Democratic Party,False
+668,District 4,Michael Rufo,New_Jersey,house,Libertarian Party,False
+669,District 4,Brian Reynolds,New_Jersey,house,Grey.png,False
+670,District 4,Edward Stackhouse Jr.,New_Jersey,house,Grey.png,False
+671,District 4,Felicia Stoler,New_Jersey,house,Grey.png,False
+672,District 4,Allen Yusufov,New_Jersey,house,Grey.png,False
+673,District 5,Josh Gottheimer,New_Jersey,house,,True
+674,District 5,John McCann,New_Jersey,house,Republican Party,False
+675,District 5,James Tosone,New_Jersey,house,Libertarian Party,False
+676,District 5,Wendy Goetz,New_Jersey,house,Grey.png,False
+677,District 6,Frank Pallone,New_Jersey,house,,True
+678,District 6,Rich Pezzullo,New_Jersey,house,Republican Party,False
+679,District 7,Leonard Lance,New_Jersey,house,,True
+680,District 7,Tom Malinowski,New_Jersey,house,Democratic Party,False
+681,District 7,Diane Moxley,New_Jersey,house,Green Party,False
+682,District 7,Gregg Mele,New_Jersey,house,Grey.png,False
+683,District 8,Albio Sires,New_Jersey,house,,True
+684,District 8,John Muniz,New_Jersey,house,Republican Party,False
+685,District 8,Dan Delaney,New_Jersey,house,Libertarian Party,False
+686,District 8,Mahmoud Mahmoud,New_Jersey,house,Grey.png,False
+687,District 9,Bill Pascrell,New_Jersey,house,,True
+688,District 9,Eric Fisher,New_Jersey,house,Republican Party,False
+689,District 9,Claudio Belusic,New_Jersey,house,Libertarian Party,False
+690,District 10,Donald Payne Jr.,New_Jersey,house,,True
+691,District 10,Agha Khan,New_Jersey,house,Republican Party,False
+692,District 10,Scott DiRoma,New_Jersey,house,Libertarian Party,False
+693,District 10,Cynthia Johnson,New_Jersey,house,Grey.png,False
+694,District 10,Joan Miller,New_Jersey,house,Grey.png,False
+695,District 11,Mikie Sherrill,New_Jersey,house,Democratic Party,False
+696,District 11,Jay Webber,New_Jersey,house,Republican Party,False
+697,District 11,Ryan Martinez,New_Jersey,house,Libertarian Party,False
+698,District 11,Robert Crook,New_Jersey,house,Grey.png,False
+699,District 12,Bonnie Watson Coleman,New_Jersey,house,,True
+700,District 12,Daryl Kipnis,New_Jersey,house,Republican Party,False
+701,District 1,Debra Haaland,New_Mexico,house,Democratic Party,False
+702,District 1,Janice Arnold-Jones,New_Mexico,house,Republican Party,False
+703,District 1,Lloyd Princeton,New_Mexico,house,Libertarian Party,False
+704,District 2,Xochitl Torres Small,New_Mexico,house,Democratic Party,False
+705,District 2,Yvette Herrell,New_Mexico,house,Republican Party,False
+706,District 3,Ben Ray Lujan,New_Mexico,house,,True
+707,District 3,Jerald Steve McFall,New_Mexico,house,Republican Party,False
+708,District 3,Christopher Manning,New_Mexico,house,Libertarian Party,False
+709,District 1,Lee Zeldin,New_York,house,Republican Party,True
+710,District 1,Perry Gershon,New_York,house,Democratic Party,False
+711,District 1,Kate Browning,New_York,house,Women&#39;s Equality Party Party,False
+712,District 1,Patricia Latzman,New_York,house,Working Families Party Party,False
+713,District 2,Peter King,New_York,house,Republican Party,True
+714,District 2,Liuba Grechen Shirley,New_York,house,Democratic Party,False
+715,District 3,Tom Suozzi,New_York,house,Democratic Party,True
+716,District 3,Dan DeBono,New_York,house,Republican Party,False
+717,District 3,Josh Sauberman,New_York,house,,False
+718,District 3,Costa Michailidis,New_York,house,,False
+719,District 4,Kathleen Rice,New_York,house,Democratic Party,True
+720,District 4,Ameer Benno,New_York,house,Republican Party,False
+721,District 6,Grace Meng,New_York,house,Democratic Party,True
+722,District 6,Tom Hillgardner,New_York,house,Green Party,False
+723,District 7,Nydia Velazquez,New_York,house,Democratic Party,True
+724,District 7,Joseph Lieberman,New_York,house,Conservative Party Party,False
+725,District 7,Jeffrey Kurzon,New_York,house,Reform Party Party,False
+726,District 8,Hakeem Jeffries,New_York,house,Democratic Party,True
+727,District 8,Ernest Johnson,New_York,house,Conservative Party Party,False
+728,District 8,Jessica White,New_York,house,Reform Party Party,False
+729,District 9,Yvette D. Clarke,New_York,house,Democratic Party,True
+730,District 9,Lutchi Gayot,New_York,house,Republican Party,False
+731,District 9,Joel Anabilah-Azumah,New_York,house,Reform Party Party,False
+732,District 10,Jerrold Nadler,New_York,house,Democratic Party,True
+733,District 10,Naomi Levin,New_York,house,Republican Party,False
+734,District 11,Daniel Donovan,New_York,house,New York Party,True
+735,District 11,Max Rose,New_York,house,Democratic Party,False
+736,District 11,Henry Bardel,New_York,house,Green Party,False
+737,District 12,Carolyn B. Maloney,New_York,house,Democratic Party,True
+738,District 12,Eliot Rabin,New_York,house,Republican Party,False
+739,District 12,Scott Hutchins,New_York,house,Green Party,False
+740,District 13,Adriano Espaillat,New_York,house,Democratic Party,True
+741,District 13,Jineea Butler,New_York,house,Republican Party,False
+742,District 14,Joseph Crowley,New_York,house,,True
+743,District 14,Alexandria Ocasio-Cortez,New_York,house,Democratic Party,False
+744,District 14,Anthony Pappas,New_York,house,Republican Party,False
+745,District 14,Elizabeth Perri,New_York,house,Conservative Party Party,False
+746,District 14,James Dillon,New_York,house,,False
+747,District 15,José Serrano,New_York,house,Democratic Party,True
+748,District 15,Jason Gonzalez,New_York,house,Republican Party,False
+749,District 16,Eliot Engel,New_York,house,Democratic Party,True
+750,District 17,Nita Lowey,New_York,house,Democratic Party,True
+751,District 17,Joseph Ciardullo,New_York,house,Reform Party Party,False
+752,District 18,Sean Maloney,New_York,house,Democratic Party,True
+753,District 18,James O'Donnell,New_York,house,Republican Party,False
+754,District 18,Alex Fernandez,New_York,house,,False
+755,District 19,John Faso,New_York,house,Republican Party,True
+756,District 19,Antonio Delgado,New_York,house,Democratic Party,False
+757,District 19,Steven Greenfield,New_York,house,Green Party,False
+758,District 19,Diane Neal,New_York,house,Independent Party,False
+759,District 19,Chad McEvoy,New_York,house,,False
+760,District 19,Bob Cohen,New_York,house,,False
+761,District 19,Luisa Parker,New_York,house,,False
+762,District 19,Victoria Alexander,New_York,house,,False
+763,District 19,Dal LaMagna,New_York,house,,False
+764,District 20,Paul Tonko,New_York,house,Democratic Party,True
+765,District 20,Joe Vitollo,New_York,house,Republican Party,False
+766,District 21,Elise Stefanik,New_York,house,Republican Party,True
+767,District 21,Tedra Cobb,New_York,house,Democratic Party,False
+768,District 21,Lynn Kahn,New_York,house,Green Party,False
+769,District 21,Dylan Ratigan,New_York,house,,False
+770,District 21,Katie Wilson,New_York,house,,False
+771,District 21,Steve Krieg,New_York,house,,False
+772,District 21,Chris Schmidt,New_York,house,,False
+773,District 22,Claudia Tenney,New_York,house,Republican Party,True
+774,District 22,Anthony Brindisi,New_York,house,Democratic Party,False
+775,District 23,Tom Reed,New_York,house,Republican Party,True
+776,District 23,Tracy Mitrano,New_York,house,Democratic Party,False
+777,District 23,John Hertzler,New_York,house,,False
+778,District 23,James Clasby,New_York,house,,False
+779,District 24,John Katko,New_York,house,Republican Party,True
+780,District 24,Dana Balter,New_York,house,Democratic Party,False
+781,District 24,Bill Bass,New_York,house,,False
+782,District 25,Joseph Morelle,New_York,house,Democratic Party,False
+783,District 25,James Maxwell,New_York,house,Republican Party,False
+784,District 26,Brian Higgins,New_York,house,Democratic Party,True
+785,District 26,Renee Zeno,New_York,house,Republican Party,False
+786,District 27,Chris Collins,New_York,house,Republican Party,True
+787,District 27,Nate McMurray,New_York,house,Democratic Party,False
+788,District 27,Larry Piegza,New_York,house,Reform Party Party,False
+789,District 27,Michael Zak,New_York,house,,False
+790,District 3,Walter Jones,North_Carolina,house,,False
+791,District 1,G.K. Butterfield,North_Carolina,house,Democratic Party,True
+792,District 1,Roger Allison,North_Carolina,house,Republican Party,False
+793,District 2,George Holding,North_Carolina,house,,True
+794,District 2,Linda Coleman,North_Carolina,house,Democratic Party,False
+795,District 2,Jeff Matemu,North_Carolina,house,Libertarian Party,False
+796,District 3,Phil Law,North_Carolina,house,,False
+797,District 3,Scott Dacey,North_Carolina,house,,False
+798,District 4,David Price,North_Carolina,house,,True
+799,District 4,Steve Von Loor,North_Carolina,house,Republican Party,False
+800,District 4,Barbara Howe,North_Carolina,house,Libertarian Party,False
+801,District 5,Virginia Foxx,North_Carolina,house,,True
+802,District 5,Denise Adams,North_Carolina,house,Democratic Party,False
+803,District 6,Mark Walker,North_Carolina,house,North Carolina Party,True
+804,District 6,Ryan Watts,North_Carolina,house,Democratic Party,False
+805,District 7,David Rouzer,North_Carolina,house,,True
+806,District 7,Kyle Horton,North_Carolina,house,Democratic Party,False
+807,District 7,David Fallin,North_Carolina,house,Constitution Party,False
+808,District 8,Richard Hudson,North_Carolina,house,,True
+809,District 8,Frank McNeill,North_Carolina,house,Democratic Party,False
+810,District 9,Dan McCready,North_Carolina,house,Democratic Party,False
+811,District 9,Mark Harris,North_Carolina,house,Republican Party,False
+812,District 9,Jeff Scott,North_Carolina,house,Libertarian Party,False
+813,District 10,Patrick McHenry,North_Carolina,house,,True
+814,District 10,David Wilson Brown,North_Carolina,house,Democratic Party,False
+815,District 11,Mark Meadows,North_Carolina,house,North Carolina Party,True
+816,District 11,Phillip Price,North_Carolina,house,Democratic Party,False
+817,District 11,Clifton Ingram Jr.,North_Carolina,house,Libertarian Party,False
+818,District 12,Alma Adams,North_Carolina,house,,True
+819,District 12,Paul Wright,North_Carolina,house,Republican Party,False
+820,District 13,Ted Budd,North_Carolina,house,,True
+821,District 13,Kathy Manning,North_Carolina,house,Democratic Party,False
+822,District 13,Tom Bailey,North_Carolina,house,Libertarian Party,False
+823,District 13,Robert Corriher,North_Carolina,house,Green Party,False
+824,,Mac Schneider,North_Dakota,house,Democratic Party,False
+825,,Kelly Armstrong,North_Dakota,house,Republican Party,False
+826,,Charles Tuttle,North_Dakota,house,Independent Party,False
+827,District 1,Steve Chabot,Ohio,house,Republican Party,True
+828,District 1,Aftab Pureval,Ohio,house,Democratic Party,False
+829,District 1,Dirk Kubala,Ohio,house,Libertarian Party,False
+830,District 1,Mike Goldschmidt,Ohio,house,,False
+831,District 1,Kiumars Kiani,Ohio,house,,False
+832,District 2,Brad Wenstrup,Ohio,house,Republican Party,True
+833,District 2,Jill Schiller,Ohio,house,Democratic Party,False
+834,District 2,James Condit Jr.,Ohio,house,Green Party,False
+835,District 2,Steve Myers,Ohio,house,,False
+836,District 2,David Baker,Ohio,house,Ohio Party,False
+837,District 3,Joyce Beatty,Ohio,house,Democratic Party,True
+838,District 3,Jim Burgess,Ohio,house,Republican Party,False
+839,District 3,Millie Milam,Ohio,house,,False
+840,District 4,Jim Jordan,Ohio,house,Ohio Party,True
+841,District 4,Janet Garrett,Ohio,house,Democratic Party,False
+842,District 4,"Norbert Dennerll, Jr.",Ohio,house,,False
+843,District 5,Bob Latta,Ohio,house,Republican Party,True
+844,District 5,John Michael Galbraith,Ohio,house,Democratic Party,False
+845,District 5,Don Kissick,Ohio,house,Libertarian Party,False
+846,District 6,Bill Johnson,Ohio,house,Ohio Party,True
+847,District 6,Shawna Roberts,Ohio,house,Democratic Party,False
+848,District 7,Bob Gibbs,Ohio,house,Republican Party,True
+849,District 7,Ken Harbaugh,Ohio,house,Democratic Party,False
+850,District 8,Warren Davidson,Ohio,house,Republican Party,True
+851,District 8,Vanessa Enoch,Ohio,house,Democratic Party,False
+852,District 8,Stephen D. Shaw,Ohio,house,,False
+853,District 9,Marcy Kaptur,Ohio,house,Democratic Party,True
+854,District 9,Steven Kraus,Ohio,house,Republican Party,False
+855,District 9,McKenzie Levindofske,Ohio,house,,False
+856,District 10,Michael Turner,Ohio,house,Ohio Party,True
+857,District 10,Theresa Gasper,Ohio,house,Democratic Party,False
+858,District 10,David Harlow,Ohio,house,Libertarian Party,False
+859,District 11,Marcia Fudge,Ohio,house,Democratic Party,True
+860,District 11,Beverly Goldstein,Ohio,house,Republican Party,False
+861,District 11,James Jerome Bell,Ohio,house,,False
+862,District 12,Troy Balderson,Ohio,house,Republican Party,True
+863,District 12,Danny O'Connor,Ohio,house,,False
+864,District 12,Joe Manchik,Ohio,house,Green Party,False
+865,District 12,Jonathan Veley,Ohio,house,,False
+866,District 12,Matthew Brendan O&#39;Connor,Ohio,house,,False
+867,District 12,Marc Fagin,Ohio,house,,False
+868,District 13,Tim Ryan,Ohio,house,Ohio Party,True
+869,District 13,Christopher DePizzo,Ohio,house,Republican Party,False
+870,District 14,David Joyce,Ohio,house,Republican Party,True
+871,District 14,Betsy Rader,Ohio,house,Democratic Party,False
+872,District 14,David Macko,Ohio,house,,False
+873,District 15,Steve Stivers,Ohio,house,Republican Party,True
+874,District 15,Rick Neal,Ohio,house,Democratic Party,False
+875,District 15,Johnathan Miller Jr.,Ohio,house,Libertarian Party,False
+876,District 16,Susan Moran Palmer,Ohio,house,Democratic Party,False
+877,District 16,Anthony Gonzalez,Ohio,house,Republican Party,False
+878,District 1,Tim Gilpin,Oklahoma,house,Democratic Party,False
+879,District 1,Kevin Hern,Oklahoma,house,Republican Party,False
+880,District 2,Markwayne Mullin,Oklahoma,house,,False
+881,District 2,Jason Nichols,Oklahoma,house,Democratic Party,False
+882,District 2,Richard Castaldo,Oklahoma,house,Libertarian Party,False
+883,District 2,John Foreman,Oklahoma,house,Independent Party,False
+884,District 3,Frank Lucas,Oklahoma,house,,False
+885,District 3,Frankie Robbins,Oklahoma,house,Democratic Party,False
+886,District 4,Tom Cole,Oklahoma,house,Oklahoma Party,False
+887,District 4,Mary Brannon,Oklahoma,house,Democratic Party,False
+888,District 4,Ruby Peters,Oklahoma,house,Independent Party,False
+889,District 5,Steve Russell,Oklahoma,house,,False
+890,District 5,Kendra Horn,Oklahoma,house,Democratic Party,False
+891,District 1,Suzanne Bonamici,Oregon,house,Democratic Party,True
+892,District 1,John Verbeek,Oregon,house,Republican Party,False
+893,District 1,Drew Layda,Oregon,house,Libertarian Party,False
+894,District 2,Greg Walden,Oregon,house,Republican Party,True
+895,District 2,Jamie McLeod-Skinner,Oregon,house,Democratic Party,False
+896,District 2,Mark Roberts,Oregon,house,Independent Party of Oregon Party,False
+897,District 3,Earl Blumenauer,Oregon,house,Democratic Party,True
+898,District 3,Michael P. Marsh,Oregon,house,Constitution Party Party,False
+899,District 3,Marc Koller,Oregon,house,Independent Party of Oregon Party,False
+900,District 3,Gary Dye,Oregon,house,Libertarian Party,False
+901,District 4,Peter DeFazio,Oregon,house,Democratic Party,True
+902,District 4,Art Robinson,Oregon,house,Republican Party,False
+903,District 4,Richard Jacobson,Oregon,house,Libertarian Party,False
+904,District 4,Michael Beilstein,Oregon,house,Pacific Green Party Party,False
+905,District 5,Kurt Schrader,Oregon,house,Democratic Party,True
+906,District 5,Mark Callahan,Oregon,house,Republican Party,False
+907,District 5,Dan Souza,Oregon,house,Libertarian Party,False
+908,District 5,Marvin Sandnes,Oregon,house,Pacific Green Party Party,False
+909,District 1,Brian Fitzpatrick,Pennsylvania,house,Republican Party,False
+910,District 1,Scott Wallace,Pennsylvania,house,Democratic Party,False
+911,District 1,Steve Scheetz,Pennsylvania,house,Libertarian Party,False
+912,District 2,Brendan Boyle,Pennsylvania,house,,False
+913,District 2,David Torres,Pennsylvania,house,Republican Party,False
+914,District 3,Dwight Evans,Pennsylvania,house,,False
+915,District 3,Bryan Leib,Pennsylvania,house,Republican Party,False
+916,District 4,Madeleine Dean,Pennsylvania,house,Democratic Party,False
+917,District 4,Dan David,Pennsylvania,house,Republican Party,False
+918,District 5,Mary Gay Scanlon,Pennsylvania,house,Democratic Party,False
+919,District 5,Pearl Kim,Pennsylvania,house,Republican Party,False
+920,District 6,Chrissy Houlahan,Pennsylvania,house,Democratic Party,False
+921,District 6,Greg McCauley,Pennsylvania,house,Republican Party,False
+922,District 7,Susan Wild,Pennsylvania,house,Democratic Party,False
+923,District 7,Marty Nothstein,Pennsylvania,house,Republican Party,False
+924,District 7,Tim Silfies,Pennsylvania,house,Libertarian Party,False
+925,District 8,Matt Cartwright,Pennsylvania,house,,False
+926,District 8,John Chrin,Pennsylvania,house,Republican Party,False
+927,District 9,Denny Wolff,Pennsylvania,house,Democratic Party,False
+928,District 9,Dan Meuser,Pennsylvania,house,Republican Party,False
+929,District 10,George Scott,Pennsylvania,house,Democratic Party,False
+930,District 10,Scott Perry,Pennsylvania,house,,False
+931,District 11,Lloyd Smucker,Pennsylvania,house,,False
+932,District 11,Jessica King,Pennsylvania,house,Democratic Party,False
+933,District 12,Marc Friedenberg,Pennsylvania,house,Democratic Party,False
+934,District 12,Tom Marino,Pennsylvania,house,,False
+935,District 13,Brent Ottaway,Pennsylvania,house,Democratic Party,False
+936,District 13,John Joyce,Pennsylvania,house,Republican Party,False
+937,District 14,Bibiana Boerio,Pennsylvania,house,Democratic Party,False
+938,District 14,Guy Reschenthaler,Pennsylvania,house,Republican Party,False
+939,District 15,Glenn Thompson,Pennsylvania,house,Pennsylvania Party,False
+940,District 15,Susan Boser,Pennsylvania,house,Democratic Party,False
+941,District 16,Mike Kelly,Pennsylvania,house,Pennsylvania Party,False
+942,District 16,Ronald DiNicola,Pennsylvania,house,Democratic Party,False
+943,District 16,Ebert Beeman,Pennsylvania,house,Libertarian Party,False
+944,District 17,Conor Lamb,Pennsylvania,house,Democratic Party,True
+945,District 17,Keith Rothfus,Pennsylvania,house,Republican Party,True
+946,District 18,Michael Doyle,Pennsylvania,house,Pennsylvania Congress Party,True
+947,District 1,David N. Cicilline,Rhode_Island,house,Democratic Party,True
+948,District 1,Patrick Donovan,Rhode_Island,house,Republican Party,False
+949,District 1,Daniel Guilmette,Rhode_Island,house,,False
+950,District 2,Jim Langevin,Rhode_Island,house,Democratic Party,True
+951,District 2,Salvatore Caiozzo,Rhode_Island,house,Republican Party,False
+952,District 1,Joe Cunningham,South_Carolina,house,Democratic Party,False
+953,District 1,Katie Arrington,South_Carolina,house,Republican Party,False
+954,District 2,Joe Wilson,South_Carolina,house,South Carolina Party,True
+955,District 2,Sean Carrigan,South_Carolina,house,Democratic Party,False
+956,District 2,Sonny Narang,South_Carolina,house,Grey.png,False
+957,District 3,Jeff Duncan,South_Carolina,house,South Carolina Party,True
+958,District 3,Mary Geren,South_Carolina,house,Democratic Party,False
+959,District 3,Dave Moore,South_Carolina,house,Grey.png,False
+960,District 3,John Bednar,South_Carolina,house,,False
+961,District 4,Brandon Brown,South_Carolina,house,Democratic Party,False
+962,District 4,William Timmons,South_Carolina,house,Republican Party,False
+963,District 4,Guy Furay,South_Carolina,house,Grey.png,False
+964,District 5,Ralph Norman,South_Carolina,house,,True
+965,District 5,Archie Parnell,South_Carolina,house,Democratic Party,False
+966,District 5,Michael Chandler,South_Carolina,house,Constitution Party,False
+967,District 6,James Clyburn,South_Carolina,house,,True
+968,District 6,Gerhard Gressmann,South_Carolina,house,Republican Party,False
+969,District 6,Bryan Pugh,South_Carolina,house,Green Party,False
+970,District 7,Tom Rice,South_Carolina,house,South Carolina Party,True
+971,District 7,Robert Williams,South_Carolina,house,Democratic Party,False
+972,,Timothy Bjorkman,South_Dakota,house,Democratic Party,False
+973,,Dusty Johnson,South_Dakota,house,Republican Party,False
+974,,George Hendrickson,South_Dakota,house,Libertarian Party,False
+975,,Ron Wieczorek,South_Dakota,house,Independent Party,False
+976,,Phil Roe,Tennessee,house,Republican Party,True
+977,,Marty Olsen,Tennessee,house,Democratic Party,False
+978,,Michael Salyer,Tennessee,house,Independent Party,False
+979,District 1,"Louis B. ""Louie"" Gohmert Jr.",Texas,house,,False
+980,District 1,Shirley McKellar,Texas,house,Democratic Party,False
+981,District 2,Todd Litton,Texas,house,Democratic Party,False
+982,District 2,Daniel Crenshaw,Texas,house,Republican Party,False
+983,District 2,Patrick Gunnels,Texas,house,Libertarian Party,False
+984,District 2,Scott Cubbler,Texas,house,Independent Party,False
+985,District 3,Lorie Burch,Texas,house,Democratic Party,False
+986,District 3,Van Taylor,Texas,house,Republican Party,False
+987,District 3,Christopher Claytor,Texas,house,Libertarian Party,False
+988,District 3,Jeff Simmons,Texas,house,,False
+989,District 4,John Ratcliffe,Texas,house,Republican Party,True
+990,District 4,Catherine Krantz,Texas,house,Democratic Party,False
+991,District 4,Ken Ashby,Texas,house,Libertarian Party,False
+992,District 5,Dan Wood,Texas,house,Democratic Party,False
+993,District 5,Lance Gooden,Texas,house,Republican Party,False
+994,District 5,Phil Gray,Texas,house,,False
+995,District 6,Jana Lynne Sanchez,Texas,house,Democratic Party,False
+996,District 6,Ronald Wright,Texas,house,Republican Party,False
+997,District 6,Jason Harber,Texas,house,Libertarian Party,False
+998,District 7,John Culberson,Texas,house,Republican Party,True
+999,District 7,Lizzie Pannill Fletcher,Texas,house,Democratic Party,False
+1000,District 7,Ronald Kimmons,Texas,house,,False
+1001,District 8,Kevin Brady,Texas,house,Republican Party,True
+1002,District 8,Steven David,Texas,house,Democratic Party,False
+1003,District 8,Chris Duncan,Texas,house,Libertarian Party,False
+1004,District 9,Al Green,Texas,house,Democratic Party,True
+1005,District 9,Phil Kurtz,Texas,house,Libertarian Party,False
+1006,District 9,Benjamin Hernandez,Texas,house,Independent Party,False
+1007,District 9,Kesha Rogers,Texas,house,Independent Party,False
+1008,District 10,Michael McCaul,Texas,house,Republican Party,True
+1009,District 10,Mike Siegel,Texas,house,Democratic Party,False
+1010,District 10,Mike Ryan,Texas,house,Libertarian Party,False
+1011,District 11,Mike Conaway,Texas,house,Republican Party,True
+1012,District 11,Jennie Lou Leeder,Texas,house,Democratic Party,False
+1013,District 11,Rhett Rosenquest Smith,Texas,house,Libertarian Party,False
+1014,District 12,Kay Granger,Texas,house,Republican Party,True
+1015,District 12,Vanessa Adia,Texas,house,Democratic Party,False
+1016,District 12,Jacob Leddy,Texas,house,Libertarian Party,False
+1017,District 13,Mac Thornberry,Texas,house,Republican Party,True
+1018,District 13,Greg Sagan,Texas,house,Democratic Party,False
+1019,District 13,Calvin DeWeese,Texas,house,Libertarian Party,False
+1020,District 14,Randy Weber,Texas,house,Republican Party,True
+1021,District 14,Adrienne Bell,Texas,house,Democratic Party,False
+1022,District 14,Don Conley III,Texas,house,Libertarian Party,False
+1023,District 15,Vicente González,Texas,house,Democratic Party,True
+1024,District 15,Tim Westley,Texas,house,Republican Party,False
+1025,District 15,Anthony Cristo,Texas,house,Libertarian Party,False
+1026,District 16,Veronica Escobar,Texas,house,Democratic Party,False
+1027,District 16,Rick Seeberger,Texas,house,Republican Party,False
+1028,District 16,Ben Mendoza,Texas,house,Independent Party,False
+1029,District 16,Samuel Williams Jr.,Texas,house,Grey.png,False
+1030,District 17,Bill Flores,Texas,house,Republican Party,True
+1031,District 17,Rick Kennedy,Texas,house,Democratic Party,False
+1032,District 17,Peter Churchman,Texas,house,Libertarian Party,False
+1033,District 18,Sheila Jackson Lee,Texas,house,Democratic Party,True
+1034,District 18,Ava Pate,Texas,house,Republican Party,False
+1035,District 18,Luke Spencer,Texas,house,Libertarian Party,False
+1036,District 18,Vince Duncan,Texas,house,Independent Party,False
+1037,District 19,Jodey Arrington,Texas,house,Republican Party,True
+1038,District 19,Miguel Levario,Texas,house,Democratic Party,False
+1039,District 20,Joaquin Castro,Texas,house,Democratic Party,True
+1040,District 20,Jeffrey Blunt,Texas,house,Libertarian Party,False
+1041,District 21,Joseph Kopser,Texas,house,Democratic Party,False
+1042,District 21,Chip Roy,Texas,house,Republican Party,False
+1043,District 21,Lee Santos,Texas,house,Libertarian Party,False
+1044,District 22,"Peter G. ""Pete"" Olson",Texas,house,,False
+1045,District 22,Sri Preston Kulkarni,Texas,house,Democratic Party,False
+1046,District 22,John McElligott,Texas,house,Libertarian Party,False
+1047,District 22,Sara Kellen Sweny,Texas,house,Independent Party,False
+1048,District 23,"William ""Will"" Hurd",Texas,house,,False
+1049,District 23,Gina Ortiz Jones,Texas,house,Democratic Party,False
+1050,District 23,Ruben Corvalan,Texas,house,Libertarian Party,False
+1051,District 24,Kenny Marchant,Texas,house,Republican Party,True
+1052,District 24,Jan McDowell,Texas,house,Democratic Party,False
+1053,District 24,Mike Kolls,Texas,house,Libertarian Party,False
+1054,District 25,Roger Williams,Texas,house,Republican Party,True
+1055,District 25,Julie Oliver,Texas,house,Democratic Party,False
+1056,District 25,Desarae Lindsey,Texas,house,Libertarian Party,False
+1057,District 25,Martin Luecke,Texas,house,,False
+1058,District 26,Michael C. Burgess,Texas,house,Republican Party,True
+1059,District 26,Linsey Fagan,Texas,house,Democratic Party,False
+1060,District 26,Mark Boler,Texas,house,Libertarian Party,False
+1061,District 27,Michael Cloud,Texas,house,Republican Party,True
+1062,District 27,Eric Holguin,Texas,house,Democratic Party,False
+1063,District 27,Daniel Tinus,Texas,house,Libertarian Party,False
+1064,District 27,James Duerr,Texas,house,Independent Party,False
+1065,District 28,Henry Cuellar,Texas,house,Democratic Party,True
+1066,District 28,Arthur Thomas IV,Texas,house,Libertarian Party,False
+1067,District 29,Sylvia Garcia,Texas,house,Democratic Party,False
+1068,District 29,Phillip Arnold Aronoff,Texas,house,Republican Party,False
+1069,District 29,Cullen Burns,Texas,house,Libertarian Party,False
+1070,District 29,Johnathan Garza,Texas,house,,False
+1071,District 30,Eddie Bernice Johnson,Texas,house,Democratic Party,True
+1072,District 30,Shawn Jones,Texas,house,Libertarian Party,False
+1073,District 31,John Carter,Texas,house,Republican Party,True
+1074,District 31,Mary Jennings &quot;M.J.&quot; Hegar,Texas,house,Democratic Party,False
+1075,District 31,Jason Hope,Texas,house,Libertarian Party,False
+1076,District 32,Pete Sessions,Texas,house,Republican Party,True
+1077,District 32,Colin Allred,Texas,house,Democratic Party,False
+1078,District 32,Melina Baker,Texas,house,Libertarian Party,False
+1079,District 33,Marc Veasey,Texas,house,Democratic Party,True
+1080,District 33,Willie Billups,Texas,house,Republican Party,False
+1081,District 33,Jason Reeves,Texas,house,Libertarian Party,False
+1082,District 34,Filemon Vela,Texas,house,Democratic Party,True
+1083,District 34,Rey Gonzalez,Texas,house,Republican Party,False
+1084,District 35,Lloyd Doggett,Texas,house,Democratic Party,True
+1085,District 35,David Smalling,Texas,house,Republican Party,False
+1086,District 35,Clark Patterson,Texas,house,Libertarian Party,False
+1087,District 36,Brian Babin,Texas,house,Republican Party,True
+1088,District 36,Dayna Steele,Texas,house,Democratic Party,False
+1089,District 1,Rob Bishop,Utah,house,Republican Party,True
+1090,District 1,Lee Castillo,Utah,house,Democratic Party,False
+1091,District 1,Adam Davis,Utah,house,Green Party,False
+1092,District 1,Eric Eliason,Utah,house,Grey.png,False
+1093,District 2,Chris Stewart,Utah,house,Utah Party,True
+1094,District 2,Shireen Ghorbani,Utah,house,Democratic Party,False
+1095,District 2,Jeffrey Whipple,Utah,house,Libertarian Party,False
+1096,District 2,Jan Garbett,Utah,house,Grey.png,False
+1097,District 3,John Curtis,Utah,house,Utah Party,True
+1098,District 3,James Singer,Utah,house,Democratic Party,False
+1099,District 3,Tim Zeidner,Utah,house,Grey.png,False
+1100,District 3,Gregory Duerden,Utah,house,Grey.png,False
+1101,District 3,Melanie McCoard,Utah,house,,False
+1102,District 4,Mia Love,Utah,house,,True
+1103,District 4,Ben McAdams,Utah,house,Democratic Party,False
+1104,,Peter Welch,Vermont,house,Green check mark transparent.png,True
+1105,,Anya Tynio,Vermont,house,Republican Party,False
+1106,,Laura Potter,Vermont,house,Liberty Union Party Party,False
+1107,,Cris Ericson,Vermont,house,Independent Party,False
+1108,,H. Brooke Paige,Vermont,house,Republican Party,False
+1109,District 1,Rob Wittman,Virginia,house,Republican Party,False
+1110,District 1,Vangie Williams,Virginia,house,Democratic Party,False
+1111,District 2,Scott Taylor,Virginia,house,Virginia Party,False
+1112,District 2,Elaine Luria,Virginia,house,Democratic Party,False
+1113,District 2,Shaun Brown,Virginia,house,Grey.png,False
+1114,District 3,Bobby Scott,Virginia,house,Virginia Party,False
+1115,District 4,Aston Donald McEachin,Virginia,house,Democratic Party,True
+1116,District 4,Ryan McAdams,Virginia,house,Republican Party,False
+1117,District 4,Pete Wells,Virginia,house,Libertarian Party,False
+1118,District 5,Leslie Cockburn,Virginia,house,Democratic Party,False
+1119,District 5,Denver Riggleman,Virginia,house,Republican Party,False
+1120,District 6,Jennifer Lewis,Virginia,house,Democratic Party,False
+1121,District 6,Ben Cline,Virginia,house,Republican Party,False
+1122,District 7,David Brat,Virginia,house,,False
+1123,District 7,Abigail Spanberger,Virginia,house,Democratic Party,False
+1124,District 7,Joe Walton,Virginia,house,Libertarian Party,False
+1125,District 8,Don Beyer,Virginia,house,,False
+1126,District 8,Thomas Oh,Virginia,house,Republican Party,False
+1127,District 9,Morgan Griffith,Virginia,house,,False
+1128,District 9,Anthony Flaccavento,Virginia,house,Democratic Party,False
+1129,District 10,Barbara Comstock,Virginia,house,Republican Party,True
+1130,District 10,Jennifer Wexton,Virginia,house,Democratic Party,False
+1131,District 10,Nathan Larson,Virginia,house,,False
+1132,District 11,Gerald Connolly,Virginia,house,,False
+1133,District 11,Jeff Dove,Virginia,house,Republican Party,False
+1134,District 11,Stevan Porter,Virginia,house,Libertarian Party,False
+1135,District 1,Suzan DelBene,Washington,house,Democratic Party,True
+1136,District 1,Jeffrey Beeler,Washington,house,Republican Party,False
+1137,District 2,Rick Larsen,Washington,house,Democratic Party,True
+1138,District 2,Brian Luke,Washington,house,Libertarian Party,False
+1139,District 3,Jaime Herrera Beutler,Washington,house,Republican Party,True
+1140,District 3,Carolyn Long,Washington,house,Democratic Party,False
+1141,District 4,Dan Newhouse,Washington,house,Republican Party,True
+1142,District 4,Christine Brown,Washington,house,Democratic Party,False
+1143,District 5,Cathy McMorris Rodgers,Washington,house,Republican Party,True
+1144,District 5,Lisa Brown,Washington,house,Democratic Party,False
+1145,District 6,Derek Kilmer,Washington,house,Democratic Party,True
+1146,District 6,Douglas Dightman,Washington,house,Republican Party,False
+1147,District 7,Pramila Jayapal,Washington,house,Democratic Party,True
+1148,District 7,Craig Keller,Washington,house,Republican Party,False
+1149,District 8,Kim Schrier,Washington,house,Democratic Party,False
+1150,District 8,Dino Rossi,Washington,house,Republican Party,False
+1151,District 9,D. Adam Smith,Washington,house,Democratic Party,True
+1152,District 9,Sarah Smith,Washington,house,Democratic Party,False
+1153,District 10,Denny Heck,Washington,house,Democratic Party,True
+1154,District 10,Joseph Brumbles,Washington,house,Republican Party,False
+1155,District 1,David McKinley,West_Virginia,house,Republican Party,True
+1156,District 1,Kendra Fershee,West_Virginia,house,Democratic Party,False
+1157,District 2,Alexander Mooney,West_Virginia,house,Republican Party,True
+1158,District 2,Talley Sergent,West_Virginia,house,Democratic Party,False
+1159,District 2,Daniel Lutz,West_Virginia,house,Mountain Party Party,False
+1160,District 3,Richard Ojeda,West_Virginia,house,Democratic Party,False
+1161,District 3,Carol Miller,West_Virginia,house,Republican Party,False
+1162,District 4,Gwen Moore,Wisconsin,house,Democratic Party,True
+1163,District 4,Tim Rogers,Wisconsin,house,Republican Party,False
+1164,District 4,Robert Raymond,Wisconsin,house,Independent Party,False
+1165,,Liz Cheney,Wyoming,house,Green check mark transparent.png,False
+1166,,Greg Hunter,Wyoming,house,Democratic Party,False
+1167,,Daniel Clyde Cummings,Wyoming,house,Constitution Party Party,False
+1168,,Richard Brubaker,Wyoming,house,Libertarian Party,False
