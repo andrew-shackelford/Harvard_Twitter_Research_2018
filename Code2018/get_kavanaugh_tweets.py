@@ -35,7 +35,7 @@ kavanaugh_hashtags = set([
     'nokavanaughconfirmation'
 ])
 
-dir = os.listdir('.')
+dir = os.listdir('..')
 for file_name in dir:
     print(file_name)
     outfile_name = 'kavanaugh' + file_name[3:]

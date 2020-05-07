@@ -17,7 +17,7 @@ def build_dict(l_in):
     return ret_dict
 
 if __name__ == '__main__':
-    dir_l = os.listdir('.')
+    dir_l = os.listdir('..')
     for fname in dir_l:
         print(fname)
         in_f = open(fname, 'r')

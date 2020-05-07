@@ -1,6 +1,7 @@
 import os, pickle, json, sys, csv
 import subprocess
-import tweet_reduction_cl as tc
+from Code2018 import tweet_reduction_cl as tc
+
 
 def get_file_list(file_pattern):
     """
@@ -10,7 +11,7 @@ def get_file_list(file_pattern):
     :return: a list of files in the current directory that contain the string file_pattern
     """
     ret_list = []
-    all_files = os.listdir('.')
+    all_files = os.listdir('..')
     for f in all_files:
         if file_pattern in f:
             ret_list.append(f)
