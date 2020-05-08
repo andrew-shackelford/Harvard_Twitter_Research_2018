@@ -34,13 +34,10 @@ class tweet(object):
             self.in_reply = t_reply(js_tweet)
         else:
             self.in_reply = ''
-        if js_tweet['is_quote_status'] :
-            if 'quoted_status' in js_tweet:
-                self.quote = tweet(js_tweet['quoted_status'])
-            else:
-                self.quote = None
+        if js_tweet['is_quote_status'] and 'quoted_status' in js_tweet:
+            self.quote = tweet(js_tweet['quoted_status'])
         else:
-            self.quote = ''
+            self.quote = None
         self.quote_status = js_tweet['is_quote_status']
 
 class tweet_user(object):
@@ -52,8 +49,6 @@ class tweet_user(object):
     def __init__(self, js_user):
         self.screen_name = js_user['name']
         self.user_id = js_user['id_str']
-        self.location =js_user['location']
-        self.description = js_user['description']
         self.followers_count = js_user['followers_count']
         self.friends_count = js_user['friends_count']
         self.verified = js_user['verified']

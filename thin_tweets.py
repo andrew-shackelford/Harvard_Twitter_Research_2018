@@ -37,7 +37,7 @@ def file_prep(start_name):
     else:
         return start_name
 
-def file_compress(f_name):
+def file_compress(fname):
     """
     Gzip a file; this is run when the extraction is done to save space.
     :param f_name: Name of the file to gzip
@@ -75,16 +75,17 @@ def extract_reduction(fname, tweet_ids, tweeter_dict):
     the .pkl file will contain the retweet dictionary.
     """
     thin_l = []
-    fin = open(fname, 'rb')
-    t_l = jason.load(fin)
+    dup_count = 0
+    fin = open(fname, 'r')
+    t_l = json.load(fin)
     fin.close()
     for l in t_l:
-        if 'id_str' in l:
-            if l['id_str'] not in tweet_ids:
-                thin_l.append(tt.tweet(l))
-            id_c = tweeter_dict.setdefault(l['id_str'], 0)
-            tweeter_dict[l['id_str']] += 1
-    return t_l
+        if 'id_str' in l and l['id_str'] not in tweet_ids:
+            thin_l.append(tt.tweet(l))
+            tweet_ids.add(l['id_str'])
+            tweeter_dict[l['id_str']] = tweeter_dict.setdefault(l['id_str'], 0) + 1
+    print("Duplicate count = " + str(dup_count))
+    return thin_l
 
 
 def reduce_files(write_dir):
@@ -100,8 +101,8 @@ def reduce_files(write_dir):
         fname = file_prep(f)
         thin_list = extract_reduction(fname, tweet_ids, twit_ids)
         print('about to zip file')
-        file_compress(f)
-        out_fname = write_dir + '/'+f
+        file_compress(fname)
+        out_fname = write_dir + '/'+ fname
         write_daily_pickles(out_fname, thin_list)
 
 
@@ -117,12 +118,12 @@ if __name__ == '__main__':
     base_dir_name = sys.argv[1]
     dir_list = os.listdir('.')
     for d in dir_list:
-        if base_dir_name in d:
+        if base_dir_name in d and 'reduced' not in d:
             target_dir = d + 'reduced'
             os.makedirs(target_dir)
             out_dir = '/'.join(['..', target_dir])
             os.chdir(d)
-            reduce_files(target_dir)
+            reduce_files(out_dir)
 
 
 
