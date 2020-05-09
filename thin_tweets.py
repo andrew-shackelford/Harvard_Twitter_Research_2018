@@ -124,6 +124,7 @@ if __name__ == '__main__':
             out_dir = '/'.join(['..', target_dir])
             os.chdir(d)
             reduce_files(out_dir)
+            os.chdir('..')
 
 
 
