@@ -1,7 +1,7 @@
 import argparse
 import user_visualizer
 import os
-import writer
+
 
 def main():
     argparser = argparse.ArgumentParser(description='Visualize pickle files of tweets statistics.')

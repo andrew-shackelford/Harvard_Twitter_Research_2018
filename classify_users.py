@@ -1,7 +1,7 @@
 import argparse
 import user_classifier
 import os
-import writer
+
 
 def main():
     argparser = argparse.ArgumentParser(description='Manually classify whether users are bots or not.')
